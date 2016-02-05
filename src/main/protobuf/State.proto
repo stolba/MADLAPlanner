@@ -1,0 +1,21 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufStateMessage";
+
+
+message PBStateMessage  {
+
+	required int32 g = 1;
+	required int32 h = 2;
+	required int32 hash = 3;
+	required bool preferred = 4;
+
+	repeated int32 values = 5;
+
+	optional bool globalH = 6;
+
+	optional string queueID = 7;
+
+
+}

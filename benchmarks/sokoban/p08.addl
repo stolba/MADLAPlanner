@@ -1,0 +1,17 @@
+;; 'reduction of (Mas Sasquatch 8)'
+;;
+;;        #####
+;; ########   #
+;; #.   .  1#.#
+;; #  ###     #
+;; ##2$  #    #
+;;  # $   #####
+;;  # $#  #
+;;  ## #  #
+;;   #   ##
+;;   #####
+
+(define (problem p147-microban-sequential)
+  (:domain sokoban-sequential)
+  (:agents player-01 player-02 )
+)

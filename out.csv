@@ -1,0 +1,553 @@
+domain,problem,agents,global,solver,objectiveValue,initPubMaxHeuristic,initPubMinHeuristic,initPrivHeuristic,initMaxHeuristic,initMinHeuristic,initMaxProjHeuristic,initMinProjHeuristic,note
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex,0.0,9.0,0.0,9.0,18.0,9.0,9.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:9.0;privH:0.0;status:optimal); plane3:(pubH:9.0;privH:0.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex,0.0,4.5,4.5,13.5,18.0,18.0,9.0,9.0,; plane1:(pubH:4.5;privH:4.5;status:optimal); plane1:error(privH:4.5 + pubH:4.5 != h:8!!!); plane2:(pubH:4.5;privH:4.5;status:optimal); plane2:error(privH:4.5 + pubH:4.5 != h:8!!!); plane3:(pubH:4.5;privH:4.5;status:optimal); plane3:error(privH:4.5 + pubH:4.5 != h:8!!!)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,5.5,5.5,22.0,27.5,27.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a1:error(privH:5.5 + pubH:5.5 != h:10!!!); a2:(pubH:5.5;privH:5.5;status:optimal); a2:error(privH:5.5 + pubH:5.5 != h:10!!!); a3:(pubH:5.5;privH:5.5;status:optimal); a3:error(privH:5.5 + pubH:5.5 != h:10!!!); a4:(pubH:5.5;privH:5.5;status:optimal); a4:error(privH:5.5 + pubH:5.5 != h:10!!!)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,5.5,5.5,22.0,27.5,27.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a2:(pubH:5.5;privH:5.5;status:optimal); a3:(pubH:5.5;privH:5.5;status:optimal); a4:(pubH:5.5;privH:5.5;status:optimal)
+elevators08,p01.pddl,4,false,cplex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,; fast0:(pubH:0.0;privH:0.0;status:optimal); fast1:(pubH:0.0;privH:0.0;status:optimal); slow0-0:(pubH:0.0;privH:0.0;status:optimal); slow1-0:(pubH:0.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex,0.0,5.0,4.0,22.0,27.0,26.0,10.0,8.0,; apn1:(pubH:4.0;privH:4.0;status:optimal); tru4:(pubH:5.0;privH:5.0;status:optimal); tru3:(pubH:4.0;privH:4.0;status:optimal); tru2:(pubH:5.0;privH:5.0;status:optimal); tru1:(pubH:4.0;privH:4.0;status:optimal)
+rovers,p01.pddl,1,false,cplex,0.0,0.0,0.0,3.0,3.0,3.0,3.0,3.0,; rover0:(pubH:0.0;privH:3.0;status:optimal)
+rovers,p12.pddl,4,false,cplex,0.0,3.0,3.0,12.0,15.0,15.0,6.0,6.0,; rover0:(pubH:3.0;privH:3.0;status:optimal); rover1:(pubH:3.0;privH:3.0;status:optimal); rover2:(pubH:3.0;privH:3.0;status:optimal); rover3:(pubH:3.0;privH:3.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,5.5,5.5,22.0,27.5,27.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a2:(pubH:5.5;privH:5.5;status:optimal); a3:(pubH:5.5;privH:5.5;status:optimal); a4:(pubH:5.5;privH:5.5;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,5.5,5.5,22.0,27.5,27.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a1:error(privH:5.5 + pubH:5.5 != h:10!!!); a2:(pubH:5.5;privH:5.5;status:optimal); a2:error(privH:5.5 + pubH:5.5 != h:10!!!); a3:(pubH:5.5;privH:5.5;status:optimal); a3:error(privH:5.5 + pubH:5.5 != h:10!!!); a4:(pubH:5.5;privH:5.5;status:optimal); a4:error(privH:5.5 + pubH:5.5 != h:10!!!)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,5.5,5.5,22.0,27.5,27.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a2:(pubH:5.5;privH:5.5;status:optimal); a3:(pubH:5.5;privH:5.5;status:optimal); a4:(pubH:5.5;privH:5.5;status:optimal)
+truck-crane,p01.pddl,2,false,cplex,0.0,0.5,0.0,0.5,1.0,0.5,1.0,0.0,; truck:(pubH:0.5;privH:0.5;status:optimal); crane:(pubH:0.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-4-0.pddl,4,false,cplex,0.0,1.5,1.5,6.0,7.5,7.5,3.0,3.0,; a1:(pubH:1.5;privH:1.5;status:optimal); a2:(pubH:1.5;privH:1.5;status:optimal); a3:(pubH:1.5;privH:1.5;status:optimal); a4:(pubH:1.5;privH:1.5;status:optimal)
+blocksworld,probBLOCKS-8-0.pddl,4,false,cplex,0.0,3.0,3.0,12.0,15.0,15.0,6.0,6.0,; a1:(pubH:3.0;privH:3.0;status:optimal); a2:(pubH:3.0;privH:3.0;status:optimal); a3:(pubH:3.0;privH:3.0;status:optimal); a4:(pubH:3.0;privH:3.0;status:optimal)
+blocksworld,probBLOCKS-10-0.pddl,4,false,cplex,0.0,5.0,5.0,20.0,25.0,25.0,10.0,10.0,; a1:(pubH:5.0;privH:5.0;status:optimal); a2:(pubH:5.0;privH:5.0;status:optimal); a3:(pubH:5.0;privH:5.0;status:optimal); a4:(pubH:5.0;privH:5.0;status:optimal)
+blocksworld,probBLOCKS-5-0.pddl,4,false,cplex,0.0,1.5,1.5,6.0,7.5,7.5,3.0,3.0,; a1:(pubH:1.5;privH:1.5;status:optimal); a2:(pubH:1.5;privH:1.5;status:optimal); a3:(pubH:1.5;privH:1.5;status:optimal); a4:(pubH:1.5;privH:1.5;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,3.0,2.0,-1.0,2.0,1.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:3.0;privH:-1.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,4.0,3.0,0.0,4.0,3.0,4.0,3.0,; a1:(pubH:3.0;privH:0.0;status:unbounded); a2:(pubH:3.0;privH:0.0;status:unbounded); a3:(pubH:3.0;privH:0.0;status:unbounded); a4:(pubH:4.0;privH:0.0;status:unbounded)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,1.0,1.0,3.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,1.0,1.0,3.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,2.0,1.0,1.0,3.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,3.0,2.0,-1.0,2.0,1.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:3.0;privH:-1.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex,0.0,9.0,0.0,9.0,18.0,9.0,9.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:9.0;privH:0.0;status:optimal); plane3:(pubH:9.0;privH:0.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,4.5,4.5,13.5,18.0,18.0,9.0,9.0,; plane1:(pubH:4.5;privH:4.5;status:optimal); plane2:(pubH:4.5;privH:4.5;status:optimal); plane3:(pubH:4.5;privH:4.5;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,11.0,6.0,10.0,21.0,16.0,11.0,11.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:11.0;privH:0.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:11.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,5.5,-6.5,56.0,61.5,49.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a2:(pubH:-5.5;privH:16.5;status:optimal); a3:(pubH:-5.5;privH:16.5;status:optimal); a4:(pubH:-6.5;privH:17.5;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,5.5,5.5,22.0,27.5,27.5,11.0,11.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a2:(pubH:5.5;privH:5.5;status:optimal); a3:(pubH:5.5;privH:5.5;status:optimal); a4:(pubH:5.5;privH:5.5;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-5.0,52.0,58.0,47.0,11.0,11.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:-4.0;privH:15.0;status:optimal); a3:(pubH:-5.0;privH:16.0;status:optimal); a4:(pubH:-5.0;privH:16.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-5.0,52.0,58.0,47.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:-4.0;privH:15.0;status:optimal); a3:(pubH:-5.0;privH:16.0;status:optimal); a4:(pubH:-5.0;privH:16.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,5.5,-6.5,56.0,61.5,49.5,11.0,11.0,44.0,; a1:(pubH:5.5;privH:5.5;status:optimal); a2:(pubH:-5.5;privH:16.5;status:optimal); a3:(pubH:-5.5;privH:16.5;status:optimal); a4:(pubH:-6.5;privH:17.5;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,3.0,27.0,33.0,30.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:5.0;privH:6.0;status:optimal); a3:(pubH:3.0;privH:8.0;status:optimal); a4:(pubH:3.0;privH:8.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-4.0,46.0,52.0,42.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:0.0;privH:11.0;status:optimal); a3:(pubH:-4.0;privH:15.0;status:optimal); a4:(pubH:-4.0;privH:15.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-4.0,46.0,52.0,42.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:0.0;privH:11.0;status:optimal); a3:(pubH:-4.0;privH:15.0;status:optimal); a4:(pubH:-4.0;privH:15.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-5.0,52.0,58.0,47.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:-4.0;privH:15.0;status:optimal); a3:(pubH:-5.0;privH:16.0;status:optimal); a4:(pubH:-5.0;privH:16.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,11.0,6.0,10.0,21.0,16.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:11.0;privH:0.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:11.0;privH:0.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex,0.0,9.0,0.0,9.0,18.0,9.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:9.0;privH:0.0;status:optimal); plane3:(pubH:9.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,3.0,2.0,-1.0,2.0,1.0,2.0,2.0,8.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:3.0;privH:-1.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,8.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,3.0,2.0,-1.0,2.0,1.0,2.0,2.0,8.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:3.0;privH:-1.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,3.0,2.0,-1.0,2.0,1.0,2.0,2.0,8.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:3.0;privH:-1.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,8.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,8.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,11.0,6.0,10.0,21.0,16.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:11.0;privH:0.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:11.0;privH:0.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex,0.0,9.0,0.0,9.0,18.0,9.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:9.0;privH:0.0;status:optimal); plane3:(pubH:9.0;privH:0.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-5.0,52.0,58.0,47.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:-4.0;privH:15.0;status:optimal); a3:(pubH:-5.0;privH:16.0;status:optimal); a4:(pubH:-5.0;privH:16.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,-4.0,46.0,52.0,42.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:0.0;privH:11.0;status:optimal); a3:(pubH:-4.0;privH:15.0;status:optimal); a4:(pubH:-4.0;privH:15.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,2.0,2.0,0.0,2.0,2.0,2.0,2.0,8.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,6.0,20.0,26.0,26.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:6.0;privH:5.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:6.0;privH:5.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,1.0,1.0,4.0,5.0,5.0,2.0,2.0,8.0,; a1:(pubH:1.0;privH:1.0;status:optimal); a2:(pubH:1.0;privH:1.0;status:optimal); a3:(pubH:1.0;privH:1.0;status:optimal); a4:(pubH:1.0;privH:1.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex,0.0,13.0,8.0,-8.0,5.0,0.0,10.0,8.0,44.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:10.0;privH:0.0;status:optimal); tru3:(pubH:13.0;privH:-5.0;status:optimal); tru2:(pubH:13.0;privH:-3.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex-dist,0.0,8.0,8.0,0.0,8.0,8.0,8.0,8.0,40.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:8.0;privH:0.0;status:optimal); tru3:(pubH:8.0;privH:0.0;status:optimal); tru2:(pubH:8.0;privH:0.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+rovers,p12.pddl,4,false,cplex,0.0,6.0,4.0,5.0,11.0,9.0,6.0,6.0,24.0,; rover0:(pubH:5.0;privH:1.0;status:optimal); rover1:(pubH:6.0;privH:0.0;status:optimal); rover2:(pubH:4.0;privH:2.0;status:optimal); rover3:(pubH:4.0;privH:2.0;status:optimal)
+rovers,p12.pddl,4,false,cplex-dist,0.0,5.0,5.0,4.0,9.0,9.0,6.0,6.0,24.0,; rover0:(pubH:5.0;privH:1.0;status:optimal); rover1:(pubH:5.0;privH:1.0;status:optimal); rover2:(pubH:5.0;privH:1.0;status:optimal); rover3:(pubH:5.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,6.0,20.0,26.0,26.0,11.0,11.0,44.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:6.0;privH:5.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:6.0;privH:5.0;status:optimal)
+blocksworld,probBLOCKS-10-0.pddl,4,false,cplex-dist,0.0,6.0,6.0,16.0,22.0,22.0,10.0,10.0,40.0,; a1:(pubH:6.0;privH:4.0;status:optimal); a2:(pubH:6.0;privH:4.0;status:optimal); a3:(pubH:6.0;privH:4.0;status:optimal); a4:(pubH:6.0;privH:4.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,0.0,27.0,27.0,27.0,9.0,9.0,27.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,4.5,13.5,18.0,18.0,22.5,9.0,; plane1:(pubH:4.5;privH:4.5;status:optimal); plane2:(pubH:4.5;privH:4.5;status:optimal); plane3:(pubH:4.5;privH:4.5;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,27.0,36.0,27.0,36.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,27.0,9.0,27.0,9.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+zenotravel,pfile10.pddl,3,false,cplex-dist,0.0,0.0,27.0,9.0,27.0,9.0,9.0,; plane1:(pubH:0.0;privH:9.0;status:optimal); plane2:(pubH:0.0;privH:9.0;status:optimal); plane3:(pubH:0.0;privH:9.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,20.0,5.0,26.0,11.0,11.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:6.0;privH:5.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:6.0;privH:5.0;status:optimal)
+blocksworld,probBLOCKS-10-0.pddl,4,false,cplex-dist,0.0,6.0,16.0,4.0,22.0,10.0,10.0,; a1:(pubH:6.0;privH:4.0;status:optimal); a2:(pubH:6.0;privH:4.0;status:optimal); a3:(pubH:6.0;privH:4.0;status:optimal); a4:(pubH:6.0;privH:4.0;status:optimal)
+blocksworld,probBLOCKS-10-0.pddl,4,false,cplex-dist,0.0,6.0,16.0,4.0,22.0,10.0,10.0,; a1:(pubH:6.0;privH:4.0;status:optimal); a2:(pubH:6.0;privH:4.0;status:optimal); a3:(pubH:6.0;privH:4.0;status:optimal); a4:(pubH:6.0;privH:4.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,20.0,5.0,26.0,11.0,11.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:6.0;privH:5.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:6.0;privH:5.0;status:optimal)
+rovers,p12.pddl,4,false,cplex-dist,0.0,5.0,4.0,1.0,9.0,6.0,6.0,; rover0:(pubH:5.0;privH:1.0;status:optimal); rover1:(pubH:5.0;privH:1.0;status:optimal); rover2:(pubH:5.0;privH:1.0;status:optimal); rover3:(pubH:5.0;privH:1.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex-dist,0.0,8.0,0.0,0.0,8.0,8.0,8.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:8.0;privH:0.0;status:optimal); tru3:(pubH:8.0;privH:0.0;status:optimal); tru2:(pubH:8.0;privH:0.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0.0,2.0,0.0,0.0,2.0,2.0,2.0,; a1:(pubH:2.0;privH:0.0;status:optimal); a2:(pubH:2.0;privH:0.0;status:optimal); a3:(pubH:2.0;privH:0.0;status:optimal); a4:(pubH:2.0;privH:0.0;status:optimal)
+rovers,p12.pddl,4,false,cplex-dist,0.0,5.0,4.0,1.0,9.0,6.0,6.0,; rover0:(pubH:5.0;privH:1.0;status:optimal); rover1:(pubH:5.0;privH:1.0;status:optimal); rover2:(pubH:5.0;privH:1.0;status:optimal); rover3:(pubH:5.0;privH:1.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex-dist,0.0,6.0,20.0,5.0,26.0,11.0,11.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:6.0;privH:5.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:6.0;privH:5.0;status:optimal)
+blocksworld,probBLOCKS-12-1.pddl,4,false,cplex,0.0,6.0,10.0,5.0,16.0,11.0,11.0,; a1:(pubH:6.0;privH:5.0;status:optimal); a2:(pubH:11.0;privH:0.0;status:optimal); a3:(pubH:6.0;privH:5.0;status:optimal); a4:(pubH:11.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex-dist,0.0,8.0,0.0,0.0,8.0,8.0,8.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:8.0;privH:0.0;status:optimal); tru3:(pubH:8.0;privH:0.0;status:optimal); tru2:(pubH:8.0;privH:0.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex,0.0,8.0,-8.0,0.0,0.0,8.0,10.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:10.0;privH:0.0;status:optimal); tru3:(pubH:13.0;privH:-5.0;status:optimal); tru2:(pubH:13.0;privH:-3.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex,0.0,4.0,22.0,5.0,26.0,9.0,10.0,; apn1:(pubH:4.0;privH:4.0;status:optimal); tru4:(pubH:5.0;privH:5.0;status:optimal); tru3:(pubH:4.0;privH:4.0;status:optimal); tru2:(pubH:5.0;privH:5.0;status:optimal); tru1:(pubH:4.0;privH:4.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex-dist,0.0,4.0,20.0,4.0,24.0,8.0,8.0,; apn1:(pubH:4.0;privH:4.0;status:optimal); tru4:(pubH:4.0;privH:4.0;status:optimal); tru3:(pubH:4.0;privH:4.0;status:optimal); tru2:(pubH:4.0;privH:4.0;status:optimal); tru1:(pubH:4.0;privH:4.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex-dist,0.0,8.0,0.0,0.0,8.0,8.0,8.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:8.0;privH:0.0;status:optimal); tru3:(pubH:8.0;privH:0.0;status:optimal); tru2:(pubH:8.0;privH:0.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex-dist,0.0,8.0,0.0,0.0,8.0,8.0,8.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:8.0;privH:0.0;status:optimal); tru3:(pubH:8.0;privH:0.0;status:optimal); tru2:(pubH:8.0;privH:0.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+logistics00,probLOGISTICS-12-0.pddl,5,false,cplex,0.0,8.0,-8.0,0.0,0.0,8.0,10.0,; apn1:(pubH:8.0;privH:0.0;status:optimal); tru4:(pubH:10.0;privH:0.0;status:optimal); tru3:(pubH:13.0;privH:-5.0;status:optimal); tru2:(pubH:13.0;privH:-3.0;status:optimal); tru1:(pubH:8.0;privH:0.0;status:optimal)
+mapddl-benchmarks/depot,mapddl-benchmarks/depot/pfile1.pddl,5,saFF-glcl,-1,1055,{truck0=2 depot0=2 truck1=2 distributor1=4 distributor0=5},{truck0=5 depot0=5 truck1=5 distributor1=8 distributor0=6},2277,674,93,582,212,253,254,719,34436,36,654,209,777,55,truck0:459|depot0:459|truck1:458|distributor1:459|distributor0:442|,truck0:12|depot0:7|truck1:7|distributor1:4|distributor0:6|,truck0:113|depot0:126|truck1:136|distributor1:123|distributor0:156|,truck0:48|depot0:47|truck1:53|distributor1:35|distributor0:26|,truck0:137|depot0:184|truck1:124|distributor1:176|distributor0:156|,truck0:22|depot0:11|truck1:22|distributor1:0|distributor0:0|,17,0,true,true
+mapddl-benchmarks/depot,mapddl-benchmarks/depot/pfile1.pddl,5,saFF-glcl,-1,1099,{truck0=2 depot0=2 truck1=2 distributor1=4 distributor0=5},{truck0=5 depot0=5 truck1=5 distributor1=8 distributor0=6},1943,1102,140,963,378,463,463,1304,62336,34,659,205,801,66,depot0:500|truck1:500|distributor1:471|distributor0:472|,truck0:5|depot0:8|truck1:11|distributor1:6|distributor0:4|,truck0:147|depot0:102|truck1:133|distributor1:107|distributor0:170|,truck0:51|depot0:53|truck1:40|distributor1:39|distributor0:22|,truck0:141|depot0:173|truck1:174|distributor1:152|distributor0:161|,truck0:18|depot0:16|truck1:11|distributor1:16|distributor0:5|,19,0,true,true
+mapddl-benchmarks/depot,mapddl-benchmarks/depot/pfile1.pddl,5,saFF-glcl,-1,1160,{depot0=2 driver1=2 driver0=2 distributor1=3 distributor0=5},{depot0=5 driver1=5 driver0=5 distributor1=5 distributor0=6},1979,1136,115,1021,416,470,470,1356,135704,39,951,191,656,62,depot0:504|driver1:505|driver0:491|distributor1:479|,depot0:6|driver1:10|driver0:10|distributor1:8|distributor0:5|,depot0:187|driver1:207|driver0:210|distributor1:79|distributor0:268|,depot0:37|driver1:39|driver0:28|distributor1:69|distributor0:18|,depot0:137|driver1:150|driver0:156|distributor1:100|distributor0:113|,depot0:11|driver1:11|driver0:6|distributor1:30|distributor0:4|,21,0,true,true
+mapddl-benchmarks/depot,mapddl-benchmarks/depot/pfile1.pddl,5,saFF-glcl,-1,1198,{depot0=2 driver1=2 driver0=2 distributor1=3 distributor0=5},{depot0=5 driver1=5 driver0=5 distributor1=5 distributor0=6},2495,1240,143,1097,433,383,384,1200,123596,50,1034,188,587,69,depot0:507|driver1:492|driver0:507|distributor1:506|distributor0:483|,depot0:13|driver1:12|driver0:12|distributor1:8|distributor0:5|,depot0:92|driver1:232|driver0:226|distributor1:222|distributor0:262|,depot0:72|driver1:40|driver0:27|distributor1:29|distributor0:20|,depot0:105|driver1:123|driver0:134|distributor1:118|distributor0:107|,depot0:40|driver1:10|driver0:10|distributor1:6|distributor0:3|,29,0,true,true
+mapddl-benchmarks/depot,mapddl-benchmarks/depot/pfile1.pddl,5,saFF-glcl,-1,1146,{depot0=2 driver1=2 driver0=2 distributor1=3 distributor0=5},{depot0=5 driver1=5 driver0=5 distributor1=5 distributor0=6},2425,1078,89,988,356,288,290,934,97340,32,1075,142,657,34,depot0:491|driver1:483|driver0:492|distributor1:491|distributor0:468|,depot0:8|driver1:6|driver0:9|distributor1:5|distributor0:4|,depot0:207|driver1:215|driver0:185|distributor1:207|distributor0:261|,depot0:30|driver1:32|driver0:34|distributor1:25|distributor0:21|,depot0:134|driver1:146|driver0:146|distributor1:125|distributor0:106|,depot0:6|driver1:9|driver0:11|distributor1:6|distributor0:2|,13,0,true,true
+mapddl-benchmarks/woodworking08,mapddl-benchmarks/woodworking08/p01.pddl,7,saFF-glcl,-1,1041,{grinder0=6 immersion-varnisher0=6 spray-varnisher0=6 planer0=6 highspeed-saw0=6 glazer0=6 saw0=6},{immersion-varnisher0=6 grinder0=6 spray-varnisher0=6 planer0=6 highspeed-saw0=6 glazer0=6 saw0=6},931,321,21,301,181,67,66,314,18136,33,781,71,286,13,grinder0:218|immersion-varnisher0:157|spray-varnisher0:142|highspeed-saw0:198|glazer0:216|,grinder0:8|immersion-varnisher0:4|spray-varnisher0:1|planer0:2|highspeed-saw0:5|glazer0:2|saw0:11|,immersion-varnisher0:97|grinder0:134|spray-varnisher0:84|planer0:117|highspeed-saw0:129|glazer0:142|saw0:81|,immersion-varnisher0:11|grinder0:10|spray-varnisher0:9|planer0:7|highspeed-saw0:11|glazer0:11|saw0:12|,grinder0:50|immersion-varnisher0:29|spray-varnisher0:30|planer0:49|highspeed-saw0:47|glazer0:40|saw0:41|,grinder0:0|immersion-varnisher0:1|spray-varnisher0:2|planer0:1|highspeed-saw0:2|glazer0:1|saw0:6|,6,0,true,true
+mapddl-benchmarks/woodworking08,mapddl-benchmarks/woodworking08/p01.pddl,7,saFF-glcl,-1,1117,{immersion-varnisher0=6 grinder0=6 spray-varnisher0=6 planer0=6 highspeed-saw0=6 glazer0=6 saw0=6},{immersion-varnisher0=6 grinder0=6 spray-varnisher0=6 planer0=6 highspeed-saw0=6 glazer0=6 saw0=6},820,247,21,226,131,61,61,253,14452,32,760,83,215,5,grinder0:185|immersion-varnisher0:134|spray-varnisher0:131|highspeed-saw0:174|saw0:196|,immersion-varnisher0:5|grinder0:5|spray-varnisher0:4|planer0:5|highspeed-saw0:4|glazer0:4|saw0:5|,immersion-varnisher0:89|grinder0:118|spray-varnisher0:70|planer0:110|highspeed-saw0:119|glazer0:127|saw0:127|,immersion-varnisher0:15|grinder0:11|spray-varnisher0:9|planer0:10|highspeed-saw0:11|glazer0:16|saw0:11|,grinder0:36|immersion-varnisher0:21|spray-varnisher0:28|planer0:32|highspeed-saw0:30|glazer0:33|saw0:35|,grinder0:3|immersion-varnisher0:1|spray-varnisher0:0|planer0:1|highspeed-saw0:0|glazer0:0|saw0:0|,6,0,true,true
+mapddl-benchmarks/woodworking08,mapddl-benchmarks/woodworking08/p01.pddl,7,saFF-glcl,-1,1031,{grinder0=6 immersion-varnisher0=6 spray-varnisher0=6 planer0=6 highspeed-saw0=6 glazer0=6 saw0=6},{grinder0=6 immersion-varnisher0=6 spray-varnisher0=6 planer0=6 highspeed-saw0=6 glazer0=6 saw0=6},1280,362,28,333,202,75,75,352,20568,39,922,70,277,10,grinder0:240|immersion-varnisher0:161|spray-varnisher0:158|planer0:247|highspeed-saw0:223|saw0:251|,immersion-varnisher0:6|grinder0:3|spray-varnisher0:10|planer0:1|highspeed-saw0:4|glazer0:11|saw0:4|,grinder0:160|immersion-varnisher0:101|spray-varnisher0:92|planer0:136|highspeed-saw0:155|glazer0:140|saw0:138|,grinder0:12|immersion-varnisher0:10|spray-varnisher0:7|planer0:6|highspeed-saw0:10|glazer0:14|saw0:11|,grinder0:52|immersion-varnisher0:35|spray-varnisher0:24|planer0:38|highspeed-saw0:41|glazer0:53|saw0:34|,grinder0:1|immersion-varnisher0:1|spray-varnisher0:1|planer0:0|highspeed-saw0:1|glazer0:4|saw0:2|,6,0,true,true
+truck-crane,p01.pddl,1,true,cplex,0.0,0.0,2.0,2.0,2.0,2.0,2.0,; :(pubH:0.0;privH:2.0;status:optimal)
+truck-crane,p01.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,0.0,3.4028235E38,0.0,0.0,3.4028235E38,3.4028235E38,0.0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,17,20,0,
+truck-crane,p01.pddl,1,true,cplex,2,4,0,
+truck-crane,p01.pddl,1,true,cplex,2,4,0,
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,0,
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,0,
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,0,
+truck-crane,p01.pddl,1,true,cplex,2,4,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0,opt=20tru2:heur=16.0,opt=20tru1:heur=7.0,opt=20
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0 opt=20;tru2:heur=16.0 opt=20;tru1:heur=7.0 opt=20;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0 opt=20;tru2:heur=16.0 opt=20;tru1:heur=7.0 opt=20;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0 opt=-1;tru2:heur=16.0 opt=-1;tru1:heur=7.0 opt=-1;
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,17,-1,0,
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,17,20,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0 opt=0;tru2:heur=16.0 opt=0;tru1:heur=7.0 opt=10;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0 opt=0;tru2:heur=16.0 opt=0;tru1:heur=7.0 opt=10;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,0,apn1:heur=20.0 opt=0;tru2:heur=16.0 opt=0;tru1:heur=7.0 opt=10;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,10,apn1:heur=20.0 opt=0;tru2:heur=16.0 opt=0;tru1:heur=7.0 opt=10;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,3,apn1:opt=0;tru2:opt=0;tru1:opt=3;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,3,apn1:opt=0;tru2:opt=0;tru1:opt=3;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,3,apn1:opt=0;tru2:opt=0;tru1:opt=3;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,3,apn1:opt=0;tru2:opt=0;tru1:opt=3;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,10,apn1:heur=20.0 opt=0;tru2:heur=16.0 opt=0;tru1:heur=7.0 opt=10;
+truck-crane,p01.pddl,2,false,cplex,0,0,5,truck:heur=1.0 opt=2;crane:heur=2.0 opt=3;
+truck-crane,p01.pddl,2,false,cplex,0,0,5,truck:heur=1.0 opt=2;crane:heur=2.0 opt=3;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,2,truck:opt=1;crane:opt=1;
+truck-crane,p01.pddl,1,true,cplex,2,4,4,
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,2,truck:opt=1;crane:opt=1;
+truck-crane,p01.pddl,2,false,cplex,0,0,5,truck:heur=1.0 opt=2;crane:heur=2.0 opt=3;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,2,truck:opt=1;crane:opt=1;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0,10,apn1:heur=24.0 opt=0;tru2:heur=24.0 opt=0;tru1:heur=20.0 opt=10;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,2,truck:opt=1;crane:opt=1;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,4,apn1:opt=0;tru2:opt=0;tru1:opt=4;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0,2,truck:opt=1;crane:opt=1;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0,4,apn1:opt=0;tru2:opt=0;tru1:opt=4;
+rovers,p03.pddl,2,false,cplex,0,0,9,rover0:heur=3.0 opt=0;rover1:heur=3.0 opt=9;
+rovers,p03.pddl,2,false,cplex-dist,0,0,7,rover0:opt=0;rover1:opt=7;
+blocksworld,probBLOCKS-1-0.pddl,1,true,cplex,8,4,4,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0,2,a1:opt=2;a2:opt=0;a3:opt=0;a4:opt=0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0,8,a1:heur=-3.0 opt=2;a2:heur=-3.0 opt=2;a3:heur=-3.0 opt=2;a4:heur=-3.0 opt=2;
+satellites,p01-pfile01.pddl,1,true,cplex,8,4,4,
+satellites,p01-pfile1.pddl,1,true,cplex,3,9,9,
+satellites,p01-pfile1.pddl,1,false,cplex,3,9,9,
+satellites,p01-pfile1.pddl,1,false,cplex,3,9,9,
+satellites,p01-pfile1.pddl,1,true,cplex,3,9,9,
+satellites,p01-pfile1.pddl,1,false,cplex,3,9,9,
+satellites,p01-pfile1.pddl,1,true,cplex,3,9,9,
+satellites,p03-pfile3.pddl,1,true,cplex,5,11,11,
+satellites,p03-pfile3.pddl,2,false,cplex,0,0,5,satellite0:heur=5.0 opt=0;satellite1:heur=5.0 opt=5;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0,0,satellite0:opt=0;satellite1:opt=0;
+truck-crane,p01.pddl,2,false,cplex,0,0,5,truck:heur=1.0 opt=2;crane:heur=2.0 opt=3;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,0,satellite0:opt=0.0;satellite1:opt=0.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,2,a1:opt=2.0;a2:opt=0.0;a3:opt=0.0;a4:opt=0.0;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,7,rover0:opt=0.0;rover1:opt=7.0;
+openstacks,p01.pddl,1,true,cplex,10,2.0,2,
+openstacks,p01.pddl,1,true,cplex,-2,2.0,2,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,2.0,a1:opt=2.0;a2:opt=0.0;a3:opt=0.0;a4:opt=0.0;
+truck-crane,p01.pddl,2,false,cplex,0,0.0,5.0,truck:heur=1.0 opt=2.0;crane:heur=2.0 opt=3.0;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,7.0,rover0:opt=0.0;rover1:opt=7.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=-3.0 opt=2.0;a2:heur=-3.0 opt=2.0;a3:heur=-3.0 opt=2.0;a4:heur=-3.0 opt=2.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,10.0,apn1:heur=24.0 opt=0.0;tru2:heur=24.0 opt=0.0;tru1:heur=20.0 opt=10.0;
+rovers,p03.pddl,2,false,cplex,0,0.0,9.0,rover0:heur=3.0 opt=0.0;rover1:heur=3.0 opt=9.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,10.0,apn1:heur=24.0 opt=0.0;tru2:heur=24.0 opt=0.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,-3.0,apn1:heur=24.0 opt=-1.0;tru2:heur=24.0 opt=-1.0;tru1:heur=20.0 opt=-1.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,8.0,apn1:heur=24.0 opt=-1.0;tru2:heur=24.0 opt=-1.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,0.0,apn1:heur=24.0 opt=0.0;tru2:heur=24.0 opt=0.0;tru1:heur=20.0 opt=0.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=24.0 opt=4.0;tru2:heur=24.0 opt=4.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,8.0,apn1:heur=24.0 opt=-1.0;tru2:heur=24.0 opt=-1.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,8.0,apn1:heur=24.0 opt=-1.0;tru2:heur=24.0 opt=-1.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,8.0,apn1:heur=24.0 opt=-1.0;tru2:heur=24.0 opt=-1.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,8.0,apn1:heur=24.0 opt=-1.0;tru2:heur=24.0 opt=-1.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=24.0 opt=4.0;tru2:heur=24.0 opt=4.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=24.0 opt=4.0;tru2:heur=24.0 opt=4.0;tru1:heur=20.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=24.0 opt=4.0;tru2:heur=24.0 opt=4.0;tru1:heur=20.0 opt=10.0;
+truck-crane,p01.pddl,2,false,cplex,0,0.0,6.0,truck:heur=1.0 opt=3.0;crane:heur=2.0 opt=3.0;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,2.0,truck:opt=1.0;crane:opt=1.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,0.0,a1:opt=0.0;a2:opt=0.0;a3:opt=0.0;a4:opt=0.0;
+elevators08,p01.pddl,4,false,cplex,0,0.0,6.0,fast0:heur=0.0 opt=0.0;fast1:heur=0.0 opt=0.0;slow0-0:heur=0.0 opt=0.0;slow1-0:heur=0.0 opt=6.0;
+elevators08,p01.pddl,4,false,cplex,0,0.0,6.0,fast0:heur=0.0 opt=0.0;fast1:heur=0.0 opt=0.0;slow0-0:heur=0.0 opt=0.0;slow1-0:heur=0.0 opt=6.0;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,cplex,0,0.0,6.0,fast0:heur=0.0 opt=0.0;fast1:heur=0.0 opt=0.0;slow0-0:heur=0.0 opt=0.0;slow1-0:heur=0.0 opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=4.0 opt=4.0;tru2:heur=4.0 opt=4.0;tru1:heur=8.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=4.0 opt=4.0;tru2:heur=4.0 opt=4.0;tru1:heur=8.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,0.0,a1:opt=0.0;a2:opt=0.0;a3:opt=0.0;a4:opt=0.0;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,8.0,apn1:opt=1.0;tru2:opt=0.0;tru1:opt=7.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,14.833333,apn1:opt=4.1666665;tru2:opt=1.8333335;tru1:opt=8.833333;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=4.0 opt=4.0;tru2:heur=4.0 opt=4.0;tru1:heur=8.0 opt=10.0;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,12.5,fast0:opt=0.75;fast1:opt=0.75;slow0-0:opt=2.0;slow1-0:opt=9.0;
+elevators08,p01.pddl,4,false,cplex,0,0.0,6.0,fast0:heur=0.0 opt=0.0;fast1:heur=0.0 opt=0.0;slow0-0:heur=0.0 opt=0.0;slow1-0:heur=0.0 opt=6.0;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,12.5,fast0:opt=0.75;fast1:opt=0.75;slow0-0:opt=2.0;slow1-0:opt=9.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,9.0,rover0:opt=1.5;rover1:opt=7.5;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,9.0,rover0:opt=1.5;rover1:opt=7.5;
+rovers,p03.pddl,2,false,cplex,0,0.0,12.0,rover0:heur=3.0 opt=3.0;rover1:heur=3.0 opt=9.0;
+blocksworld,probBLOCKS-1-0.pddl,1,true,cplex,4,4.0,4.0,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,1,true,cplex,4,4.0,4.0,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,9.0,rover0:opt=1.5;rover1:opt=7.5;
+rovers,p03.pddl,1,true,cplex,3,11.0,11.0,
+satellites,p03-pfile3.pddl,2,false,cplex,0,0.0,10.0,satellite0:heur=5.0 opt=5.0;satellite1:heur=5.0 opt=5.0;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,9.0,satellite0:opt=4.5;satellite1:opt=4.5;
+satellites,p03-pfile3.pddl,1,true,cplex,5,11.0,11.0,
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,4.0,truck:opt=2.0;crane:opt=2.0;
+truck-crane,p01.pddl,2,false,cplex,0,0.0,6.0,truck:heur=1.0 opt=3.0;crane:heur=2.0 opt=3.0;
+truck-crane,p01.pddl,1,true,cplex,2,4.0,4.0,
+openstacks,p01.pddl,1,true,cplex,0,2.0,2.0,
+openstacks,p01.pddl,2,false,cplex,0,0.0,4.0,manager:heur=0.0 opt=2.0;manufacturer:heur=0.0 opt=2.0;
+elevators08,p01.pddl,4,false,cplex,0,0.0,6.0,fast0:heur=0.0 opt=0.0;fast1:heur=0.0 opt=0.0;slow0-0:heur=0.0 opt=0.0;slow1-0:heur=0.0 opt=6.0;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,12.5,fast0:opt=0.75;fast1:opt=0.75;slow0-0:opt=2.0;slow1-0:opt=9.0;
+elevators08,p01.pddl,1,true,cplex,0,52.0,52.0,
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,17.25,a1:opt=6.5;a2:opt=3.0;a3:opt=3.25;a4:opt=4.5;
+elevators08,p01.pddl,4,false,uniform,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,projcom,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,projcom,0,0.0,19.666666,a1:opt=8.333334;a2:opt=2.3333333;a3:opt=3.9999995;a4:opt=5.0;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,4.0,truck:opt=2.0;crane:opt=2.0;
+truck-crane,p01.pddl,2,false,projcom,0,0.0,3.0,truck:opt=2.0;crane:opt=1.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,projcom,0,0.0,15.5,apn1:opt=3.5;tru2:opt=4.5;tru1:opt=7.5;
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,16,20.0,20.0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,14.833333,apn1:opt=4.1666665;tru2:opt=1.8333335;tru1:opt=8.833333;
+logistics00,probLOGISTICS-4-0.pddl,3,false,uniform,0,0.0,13.666666,apn1:opt=3.6666663;tru2:opt=2.3333333;tru1:opt=7.666667;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=4.0 opt=4.0;tru2:heur=4.0 opt=4.0;tru1:heur=8.0 opt=10.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,projcom,0,0.0,15.5,apn1:opt=3.5;tru2:opt=4.5;tru1:opt=7.5;
+blocksworld,probBLOCKS-1-0.pddl,1,true,cplex,4,4.0,4.0,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,18.0,a1:opt=6.5;a2:opt=3.1666665;a3:opt=3.5;a4:opt=4.8333335;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,6.0833335,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.1666667;a4:opt=1.3333334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,6.0833335,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.1666667;a4:opt=1.3333334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,5.5000005,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.3333333;a4:opt=0.5833334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,5.5000005,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.3333333;a4:opt=0.5833334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,1,true,cplex,4,4.0,4.0,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,5.5000005,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.3333333;a4:opt=0.5833334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,5.5000005,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.3333333;a4:opt=0.5833334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,5.5000005,a1:opt=1.5;a2:opt=1.0833334;a3:opt=2.3333333;a4:opt=0.5833334;
+blocksworld,probBLOCKS-1-0.pddl,1,true,cplex,4,4.0,4.0,
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,13.166667,a1:opt=2.5;a2:opt=5.8333335;a3:opt=2.5833333;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,13.166667,a1:opt=2.5;a2:opt=5.8333335;a3:opt=2.5833333;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,13.166667,a1:opt=2.5;a2:opt=5.8333335;a3:opt=2.5833333;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,projcom,0,0.0,6.3333335,a1:opt=0.6666667;a2:opt=2.9999998;a3:opt=1.3333334;a4:opt=1.3333334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,6.25,a1:opt=1.5;a2:opt=1.0;a3:opt=2.0;a4:opt=1.75;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,11.5,a1:opt=2.5;a2:opt=3.75;a3:opt=3.0;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,2.0,a1:opt=0.5;a2:opt=0.5;a3:opt=0.5;a4:opt=0.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,projcom,0,0.0,2.6666667,a1:opt=0.6666667;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,2.5000002,a1:opt=0.5;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,2.0,a1:opt=0.5;a2:opt=0.5;a3:opt=0.5;a4:opt=0.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,11.5,a1:opt=2.5;a2:opt=3.75;a3:opt=3.0;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,11.5,a1:opt=2.5;a2:opt=3.75;a3:opt=3.0;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,11.5,a1:opt=2.5;a2:opt=3.75;a3:opt=3.0;a4:opt=2.25;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,2.0,a1:opt=0.5;a2:opt=0.5;a3:opt=0.5;a4:opt=0.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,2.0,a1:opt=0.5;a2:opt=0.5;a3:opt=0.5;a4:opt=0.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,2.5000002,a1:opt=0.5;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,projcom,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+logistics00,probLOGISTICS-4-0.pddl,3,false,uniform,0,0.0,7.333333,apn1:opt=1.3333334;tru2:opt=1.3333334;tru1:opt=4.6666665;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+logistics00,probLOGISTICS-4-0.pddl,3,false,projcom,0,0.0,8.0,apn1:opt=2.0;tru2:opt=2.0;tru1:opt=4.0;
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,16,20.0,20.0,
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,6.0,satellite0:opt=3.5;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,1,true,cplex,5,11.0,11.0,
+satellites,p03-pfile3.pddl,2,false,cplex,0,0.0,10.0,satellite0:heur=5.0 opt=5.0;satellite1:heur=5.0 opt=5.0;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,6.0,satellite0:opt=3.5;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,2,false,projcom,0,0.0,9.0,satellite0:opt=4.0;satellite1:opt=5.0;
+satellites,p03-pfile3.pddl,2,false,uniform,0,0.0,5.0,satellite0:opt=2.5;satellite1:opt=2.5;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,16,20.0,20.0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,projcom,0,0.0,8.0,apn1:opt=2.0;tru2:opt=2.0;tru1:opt=4.0;
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,16,20.0,20.0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,6.0,satellite0:opt=3.5;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,2,false,uniform,0,0.0,5.0,satellite0:opt=2.5;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,2,false,projcom,0,0.0,9.0,satellite0:opt=4.0;satellite1:opt=5.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,projcom,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,uniform,0,0.0,2.0,a1:opt=0.5;a2:opt=0.5;a3:opt=0.5;a4:opt=0.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,2.5000002,a1:opt=0.5;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,6.75,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.25;slow1-0:opt=6.5;
+elevators08,p01.pddl,4,false,projcom,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,uniform,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,9.5,rover0:opt=1.5;rover1:opt=8.0;
+rovers,p03.pddl,2,false,projcom,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p03.pddl,1,true,cplex,3,11.0,11.0,
+rovers,p03.pddl,2,false,uniform,0,0.0,9.0,rover0:opt=1.5;rover1:opt=7.5;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,4.0,truck:opt=2.0;crane:opt=2.0;
+truck-crane,p01.pddl,2,false,projcom,0,0.0,3.0,truck:opt=2.0;crane:opt=1.0;
+truck-crane,p01.pddl,2,false,uniform,0,0.0,3.5,truck:opt=2.0;crane:opt=1.5;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,5.0,truck:opt=2.5;crane:opt=2.5;
+truck-crane,p01.pddl,2,false,cplex-dist-neg,0,0.0,2.0,truck:opt=2.5;crane:opt=-0.5;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-neg,0,0.0,11.0,apn1:opt=4.0;tru2:opt=3.0;tru1:opt=4.0;
+logistics00,probLOGISTICS-4-0.pddl,1,true,cplex,16,20.0,20.0,
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+satellites,p03-pfile3.pddl,2,false,cplex-dist-neg,0,0.0,6.5,satellite0:opt=4.0;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,2,false,cplex-dist-neg,0,0.0,6.5,satellite0:opt=4.0;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,2,false,cplex-dist-neg,0,0.0,1.0,satellite0:opt=-3.0;satellite1:opt=4.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-neg,0,0.0,-89.0,apn1:opt=-50.0;tru2:opt=-26.0;tru1:opt=-13.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-neg,0,0.0,8.0,apn1:opt=3.0;tru2:opt=3.0;tru1:opt=2.0;
+truck-crane,p01.pddl,2,false,cplex-dist-neg,0,0.0,0.0,truck:opt=0.0;crane:opt=0.0;
+truck-crane,p01.pddl,2,false,cplex-dist-neg,0,0.0,0.0,truck:opt=0.0;crane:opt=0.0;
+truck-crane,p01.pddl,2,false,cplex-dist-neg,0,0.0,-1.0,truck:opt=0.0;crane:opt=-1.0;
+truck-crane,p01.pddl,2,false,cplex-dist-neg,0,0.0,3.0,truck:opt=2.0;crane:opt=1.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-neg,0,0.0,10.0,apn1:opt=4.0;tru2:opt=4.0;tru1:opt=2.0;
+satellites,p03-pfile3.pddl,2,false,cplex-dist-neg,0,0.0,9.0,satellite0:opt=4.0;satellite1:opt=5.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist-neg,0,0.0,-2.0,a1:opt=0.0;a2:opt=0.0;a3:opt=-1.0;a4:opt=-1.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist-neg,0,0.0,-1.0,a1:opt=0.0;a2:opt=0.0;a3:opt=-1.0;a4:opt=0.0;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,5.0,truck:opt=2.5;crane:opt=2.5;
+truck-crane,p01.pddl,2,false,cplex-dist,0,0.0,4.0,truck:opt=1.5;crane:opt=2.5;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,cplex-dist,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,8.5,satellite0:opt=3.5;satellite1:opt=5.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist-pc,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,cplex-dist-pc,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-pc,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,9.5,rover0:opt=1.5;rover1:opt=8.0;
+rovers,p03.pddl,2,false,cplex-dist-pc,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+rovers,p03.pddl,2,false,projcom,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+satellites,p03-pfile3.pddl,2,false,cplex-dist-pc,0,0.0,8.5,satellite0:opt=3.5;satellite1:opt=5.0;
+satellites,p03-pfile3.pddl,2,false,cplex-dist,0,0.0,6.0,satellite0:opt=3.5;satellite1:opt=2.5;
+satellites,p03-pfile3.pddl,2,false,projcom,0,0.0,9.0,satellite0:opt=4.0;satellite1:opt=5.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex,0,0.0,18.0,apn1:heur=4.0 opt=4.0;tru2:heur=4.0 opt=4.0;tru1:heur=8.0 opt=10.0;
+rovers,p03.pddl,2,false,cplex-dist-pc,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+rovers,p03.pddl,2,false,cplex-dist,0,0.0,9.5,rover0:opt=1.5;rover1:opt=8.0;
+rovers,p03.pddl,2,false,cplex-dist-pc,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-neg,0,0.0,9.0,apn1:opt=4.0;tru2:opt=3.0;tru1:opt=2.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,cplex-dist-pc,0,0.0,11.5,apn1:opt=2.1666667;tru2:opt=1.1666667;tru1:opt=8.166667;
+truck-crane,p01.pddl,2,false,exact-ocp,0,0.0,4.0,truck:opt=2.0;crane:opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,projcom,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,cplex,0,0.0,6.0,fast0:heur=0.0 opt=0.0;fast1:heur=0.0 opt=0.0;slow0-0:heur=0.0 opt=0.0;slow1-0:heur=0.0 opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,exact-ocp,0,0.0,12.0,apn1:opt=1.6666667;tru2:opt=1.6666667;tru1:opt=8.666667;
+rovers,p03.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+satellites,p03-pfile3.pddl,2,false,exact-ocp,0,0.0,10.0,satellite0:opt=5.0;satellite1:opt=5.0;
+satellites,p03-pfile3.pddl,2,false,projcom,0,0.0,9.0,satellite0:opt=4.0;satellite1:opt=5.0;
+satellites,p03-pfile3.pddl,2,false,cplex,0,0.0,10.0,satellite0:heur=5.0 opt=5.0;satellite1:heur=5.0 opt=5.0;
+satellites,p03-pfile3.pddl,2,false,exact-ocp,0,0.0,10.0,satellite0:opt=5.0;satellite1:opt=5.0;
+satellites,p03-pfile3.pddl,2,false,exact-ocp,0,0.0,10.0,satellite0:opt=5.0;satellite1:opt=5.0;
+rovers,p03.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,exact-ocp,0,0.0,12.0,apn1:opt=1.6666667;tru2:opt=1.6666667;tru1:opt=8.666667;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,8.0,a1:opt=4.0;a2:opt=1.3333334;a3:opt=1.3333334;a4:opt=1.3333334;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,exact-ocp,0,0.0,12.0,apn1:opt=1.6666667;tru2:opt=1.6666667;tru1:opt=8.666667;
+rovers,p03.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+satellites,p03-pfile3.pddl,2,false,exact-ocp,0,0.0,10.0,satellite0:opt=5.0;satellite1:opt=5.0;
+rovers,p03.pddl,1,true,cplex,3,11.0,11.0,
+satellites,p03-pfile3.pddl,1,true,cplex,5,11.0,11.0,
+truck-crane,p01.pddl,2,false,approx-ocp,0,0.0,NaN,truck:opt=NaN;crane:opt=NaN;
+truck-crane,p01.pddl,2,false,approx-ocp,0,0.0,5.0,truck:opt=2.5;crane:opt=2.5;
+truck-crane,p01.pddl,2,false,approx-ocp,0,0.0,2.0,truck:opt=1.5;crane:opt=0.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,approx-ocp,0,0.0,-162.0,a1:opt=-4.0;a2:opt=-54.333336;a3:opt=-43.333336;a4:opt=-60.333336;
+truck-crane,p01.pddl,2,false,approx-ocp,0,0.0,4.0,truck:opt=1.5;crane:opt=2.5;
+blocksworld,probBLOCKS-1-0.pddl,4,false,approx-ocp,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,approx-ocp,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex-dist-pc,0,0.0,2.0,a1:opt=0.33333334;a2:opt=0.6666667;a3:opt=0.33333334;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,approx-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+logistics00,probLOGISTICS-4-0.pddl,3,false,approx-ocp,0,0.0,11.0,apn1:opt=2.6666667;tru2:opt=0.6666667;tru1:opt=7.666667;
+logistics00,probLOGISTICS-4-0.pddl,3,false,exact-ocp,0,0.0,12.0,apn1:opt=1.6666667;tru2:opt=1.6666667;tru1:opt=8.666667;
+rovers,p03.pddl,2,false,approx-ocp,0,0.0,10.0,rover0:opt=2.0;rover1:opt=8.0;
+satellites,p03-pfile3.pddl,2,false,approx-ocp,0,0.0,6.0,satellite0:opt=3.0;satellite1:opt=3.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,6.0,a1:opt=3.0;a2:opt=0.6666667;a3:opt=1.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp,0,0.0,4.0,a1:opt=2.0;a2:opt=0.6666667;a3:opt=0.6666667;a4:opt=0.6666667;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+elevators08,p01.pddl,4,false,exact-ocp,0,0.0,6.0,fast0:opt=0.0;fast1:opt=0.0;slow0-0:opt=0.0;slow1-0:opt=6.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0,0.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,1,true,cplex,3,8.0,8.0,
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,1,true,cplex,3,8.0,8.0,
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,1,true,cplex,3,8.0,8.0,
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,7.0,rover0:opt=1.5;rover1:opt=5.5;
+satellites,p04-pfile4.pddl,2,false,exact-ocp,0,0.0,14.0,satellite0:opt=4.0;satellite1:opt=10.0;
+truck-crane,p01.pddl,2,false,exact-ocp-lp,0,0.0,4.0,truck:opt=1.0;crane:opt=3.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,1,true,cplex,3,8.0,8.0,
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,7.0,rover0:opt=1.5;rover1:opt=5.5;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,10.0,rover0:opt=3.0;rover1:opt=7.0;
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-sync,-1,604,{},{tru2=13 tru1=22 apn1=15},504,187,0,0,41,519,519,1079,35532,148,0,166,0,52,tru1:251|apn1:253|,tru2:42|tru1:31|apn1:75|,,tru2:55|tru1:59|apn1:52|,,tru2:30|tru1:14|apn1:8|,23,0,true,true
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,9.0,rover0:opt=2.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,9.0,rover0:opt=2.5;rover1:opt=6.5;
+rovers,p04.pddl,2,false,exact-ocp,0,0.0,7.0,rover0:opt=1.5;rover1:opt=5.5;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,-11.0,rover0:opt=-9.0;rover1:opt=-2.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,5.0,rover0:opt=-1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,7.0,rover0:opt=1.5;rover1:opt=5.5;
+rovers,p04.pddl,2,false,uniform,0,0.0,7.0,rover0:opt=1.5;rover1:opt=5.5;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,5.0,rover0:opt=0.0;rover1:opt=5.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,8.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,10.0,0.0,5.0,rover0:opt=-1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,28.0,0.0,-31.0,rover0:opt=-19.0;rover1:opt=-12.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,8.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,18.0,0.0,7.0,rover0:opt=2.0;rover1:opt=5.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,8.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,8.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,9.0,0.0,8.0,rover0:opt=1.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,9.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,9.0,0.0,7.0,rover0:opt=0.5;rover1:opt=6.5;
+rovers,p04.pddl,2,false,exact-ocp-lp,9.0,0.0,8.0,rover0:opt=1.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp,9.0,0.0,8.0,rover0:opt=1.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-ao,8.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,cplex,0.0,0.0,2.0,8.0,a1:heur=2.0 opt=2.0;a2:heur=2.0 opt=2.0;a3:heur=2.0 opt=2.0;a4:heur=2.0 opt=2.0;
+rovers,p04.pddl,1,true,cplex,3.0,8.0,8.0,8.0,
+rovers,p04.pddl,2,false,exact-ocp-lp-ao,8.0,0.0,0.0,7.0,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,8.0,true,rover0:opt=1.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,8.0,true,rover0:opt=1.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,8.0,true,rover0:opt=1.0;rover1:opt=7.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,8.0,0.0,0.0,8.0,true,rover0:opt=2.0;rover1:opt=6.0;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,4.0,0.0,0.0,4.0,true,truck:opt=2.0;crane:opt=2.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp-lp-a,3.0,0.0,0.0,2.0,true,a1:opt=0.0;a2:opt=1.0;a3:opt=1.0;a4:opt=0.0;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,18.0,0.0,0.0,25.0,true,satellite0:opt=6.0;satellite1:opt=19.0;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,20.0,0.0,0.0,13.0,true,satellite0:opt=4.0;satellite1:opt=9.0;
+satellites,p04-pfile4.pddl,1,true,cplex,8.0,17.0,17.0,17.0,false,
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,20.0,0.0,0.0,13.0,true,satellite0:opt=4.0;satellite1:opt=9.0;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,18.0,0.0,0.0,25.0,true,satellite0:opt=6.0;satellite1:opt=19.0;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,4.0,0.0,0.0,4.0,true,truck:opt=3.0;crane:opt=1.0;
+blocksworld,probBLOCKS-1-0.pddl,4,false,exact-ocp-lp-a,4.0,0.0,0.0,3.0,true,a1:opt=1.0;a2:opt=1.0;a3:opt=0.0;a4:opt=1.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,10.0,0.0,0.0,7.0,true,rover0:opt=1.0;rover1:opt=6.0;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,10.0,0.0,0.0,7.0,true,rover0:opt=1.0,plans=13;rover1:opt=6.0,plans=293;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,8.0,0.0,0.0,8.0,true,rover0:opt=2.0,plans=96;rover1:opt=6.0,plans=1593;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,18.0,0.0,0.0,25.0,true,satellite0:opt=6.0,plans=2371;satellite1:opt=19.0,plans=108;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,20.0,0.0,0.0,13.0,true,satellite0:opt=4.0,plans=93;satellite1:opt=9.0,plans=23;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,18.0,0.0,0.0,13.0,true,satellite0:opt=3.0,plans=2371;satellite1:opt=10.0,plans=109;
+satellites,p04-pfile4.pddl,2,false,exact-ocp-lp-a,18.0,0.0,0.0,13.0,true,satellite0:opt=3.0,plans=2371;satellite1:opt=10.0,plans=109;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,9.0,true,truck:opt=0.0,plans=8;crane:opt=9.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,9.0,true,truck:opt=0.0,plans=8;crane:opt=9.0,plans=4;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,10.666667,0.0,0.0,10.666666,true,rover0:opt=4.666666,plans=96;rover1:opt=6.0000005,plans=1593;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,9.0,true,truck:opt=0.0,plans=8;crane:opt=9.0,plans=4;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,10.666667,0.0,0.0,10.666667,true,rover0:opt=0.666667,plans=96;rover1:opt=10.0,plans=1593;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,9.0,0.0,0.0,9.0,true,truck:opt=0.0,plans=8;crane:opt=9.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,14.0,0.0,0.0,14.0,true,truck:opt=0.0,plans=8;crane:opt=14.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,24.0,0.0,0.0,24.0,true,truck:opt=0.0,plans=8;crane:opt=24.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,104.0,0.0,0.0,104.0,true,truck:opt=0.0,plans=8;crane:opt=104.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,14.0,0.0,0.0,14.0,true,truck:opt=0.0,plans=8;crane:opt=14.0,plans=4;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,10.666667,0.0,0.0,10.666666,true,rover0:opt=10.666666,plans=96;rover1:opt=0.0,plans=1593;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,14.0,0.0,0.0,14.0,true,truck:opt=0.0,plans=8;crane:opt=14.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,104.0,0.0,0.0,104.0,true,truck:opt=0.0,plans=8;crane:opt=104.0,plans=4;
+rovers,p04.pddl,2,false,exact-ocp-lp-a,10.666667,0.0,0.0,10.666666,true,rover0:opt=6.0,plans=96;rover1:opt=4.666666,plans=1593;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,14.0,0.0,0.0,14.0,true,truck:opt=0.0,plans=8;crane:opt=14.0,plans=4;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,14.0,0.0,0.0,14.0,true,truck:opt=0.0,plans=8;crane:opt=14.0,plans=4;
+truck-crane,p01.pddl,2,false,cplex,0.0,0.0,3.0,6.0,false,truck:heur=1.0 opt=3.0;crane:heur=2.0 opt=3.0;
+truck-crane,p01.pddl,2,false,exact-ocp-lp-a,14.0,0.0,0.0,14.0,true,truck:opt=0.0,plans=8;crane:opt=14.0,plans=4;
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-sync,-1,1192,{},{tru2=13 tru1=22 apn1=15},654,197,0,0,49,560,560,1169,38112,141,0,170,0,194,tru1:326|apn1:328|,tru2:36|tru1:34|apn1:71|,,tru2:70|tru1:64|apn1:36|,,tru2:81|tru1:21|apn1:92|,25,0,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-sync,-1,630,{},{tru2=13 tru1=22 apn1=15},549,203,0,0,48,582,582,1212,39780,141,0,198,0,49,tru1:273|apn1:276|,tru2:37|tru1:30|apn1:74|,,tru2:81|tru1:59|apn1:58|,,tru2:30|tru1:9|apn1:10|,25,0,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-glcl,-1,509,{tru2=4 tru1=9 apn1=4},{tru2=13 tru1=22 apn1=15},339,303,62,241,67,203,204,474,16404,19,174,44,117,2,tru1:167|apn1:172|,tru2:10|tru1:3|apn1:6|,tru2:51|tru1:61|apn1:62|,tru2:17|tru1:12|apn1:15|,tru2:38|tru1:50|apn1:29|,tru2:0|tru1:1|apn1:1|,27,0,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-glcl,-1,522,{tru2=4 tru1=9 apn1=4},{tru2=13 tru1=22 apn1=15},0,416,83,333,97,250,250,597,20048,0,0,0,0,0,,,,,,,23,0,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-sync,-1,505,{},{tru2=13 tru1=22 apn1=15},0,204,0,0,48,596,596,1240,40588,0,0,0,0,0,,,,,,,25,0,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,FF,0,404,{tru2=4 tru1=9 apn1=4},{},294,344,0,0,95,0,0,95,3040,53,0,189,0,4,tru2:98|tru1:95|apn1:101|,tru2:13|tru1:23|apn1:17|,,tru2:63|tru1:61|apn1:65|,,tru2:1|tru1:0|apn1:3|,26,0,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,FF,0,413,{tru2=4 tru1=9 apn1=4},{},0,461,0,0,124,0,0,124,3968,0,0,0,0,0,,,,,,,28,0,true,true

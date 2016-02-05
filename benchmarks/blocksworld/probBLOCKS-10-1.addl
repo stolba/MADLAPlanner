@@ -1,0 +1,4 @@
+(define (problem BLOCKS-4-0)
+(:domain BLOCKS)
+(:agents a1 a2 a3 a4)
+)

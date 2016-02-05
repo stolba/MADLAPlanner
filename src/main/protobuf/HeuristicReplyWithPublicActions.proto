@@ -1,0 +1,16 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufHeuristicReplyWithPublicActionsMessage";
+
+
+message PBHeuristicReplyWithPublicActionsMessage  {
+
+	required int32 requestHash = 1;
+	required int32 stateHash = 2;
+	required int32 goalHash = 3;
+	required int32 heuristicValue = 4;
+	repeated int32 usedPublicActionIDs = 5;
+	required int32 recursionDepth = 6;
+
+}

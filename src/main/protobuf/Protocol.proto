@@ -1,0 +1,43 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufProtocolMessage";
+
+import "main/protobuf/State.proto";
+import "main/protobuf/HeuristicReplyWithPublicActions.proto";
+import "main/protobuf/HeuristicRequest.proto";
+import "main/protobuf/PlanningFinished.proto";
+import "main/protobuf/ReconstructPlan.proto";
+import "main/protobuf/ProblemInfo.proto";
+import "main/protobuf/ActionCost.proto";
+import "main/protobuf/ReconstructRP.proto";
+
+message ProtocolMessage  {
+
+	enum Type {
+		STATE = 0;
+		HEURISTIC_REPLY_WPA = 1;
+		HEURISTIC_REQUEST = 2;
+		LAZYFF_REQUEST = 3;
+		LAZYFF_REQUEST_AND_UPDATE = 4;
+		LAZYFF_UPDATE = 5;
+		PLANNING_FINISHED = 6;
+		RECONSTRUCT_PLAN = 7;
+		PROBLEM_INFO = 8;
+		ACTION_COST = 9;
+		RECONSTRUCT_RP = 10;
+  	}
+
+  	required Type type = 1;
+
+  	optional PBStateMessage state = 2;
+  	optional PBHeuristicReplyWithPublicActionsMessage heuristicReplyWPA = 3;
+  	optional PBHeuristicRequestMessage heuristicRequest = 4;
+  	optional PBPlanningFinishedMessage planningFinished = 5;
+  	optional PBReconstructPlanMessage reconstructPlan = 6;
+  	optional PBSharedProblemInfoMessage problemInfo = 7;
+  	optional PBActionCostMessage actionCost = 8;
+  	optional PBReconstructRPMessage reconstructRP = 9;
+
+
+}

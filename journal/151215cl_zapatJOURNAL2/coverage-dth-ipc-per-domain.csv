@@ -1,0 +1,11 @@
+domain	heuristic	cvg
+benchmarks/depot	FF-h0	10.3
+benchmarks/depot	PPsaFF-glcl-h-1	11.8
+benchmarks/depot	PPsaFF-sync-h-1	10.5
+benchmarks/elevators08	FF-h0	17.5
+benchmarks/openstacks	FF-h0	13.6
+benchmarks/openstacks	PPsaFF-glcl-h-1	19.8
+benchmarks/openstacks	PPsaFF-sync-h-1	14.9
+benchmarks/woodworking08	FF-h0	 6.9
+benchmarks/woodworking08	PPsaFF-glcl-h-1	 7.9
+benchmarks/woodworking08	PPsaFF-sync-h-1	 2.9

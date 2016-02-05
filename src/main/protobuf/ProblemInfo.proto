@@ -1,0 +1,12 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufSharedProblemInfoMessage";
+
+
+message PBSharedProblemInfoMessage  {
+
+	required int32 coupling = 1;
+
+
+}

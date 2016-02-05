@@ -1,0 +1,5 @@
+(define (problem ZTRAVEL-3-6)
+(:domain zeno-travel)
+(:objects plane1 plane2 plane3)
+
+)

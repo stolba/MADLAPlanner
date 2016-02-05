@@ -1,0 +1,16 @@
+;; #####
+;; #   #
+;; # . #
+;; #.1.###
+;; ##.#  #
+;; # 2$  #
+;; # $   #
+;; ##$$  #
+;;  # 3###
+;;  #  #
+;;  ####
+
+(define (problem p131-microban-sequential)
+  (:domain sokoban-sequential)
+  (:agents player-01 player-02 player-03 )
+)

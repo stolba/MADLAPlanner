@@ -1,0 +1,12 @@
+;; # #####
+;;   #   #
+;; ###$$1#
+;; #  2###
+;; #     #
+;; # . . #
+;; #######
+
+(define (problem p024-microban-sequential)
+  (:domain sokoban-sequential)
+  (:agents player-01 player-02 )
+)

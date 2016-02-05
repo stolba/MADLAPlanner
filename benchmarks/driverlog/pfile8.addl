@@ -1,0 +1,4 @@
+(define (problem DLOG-3-3-7)
+	(:domain driverlog)
+	(:agents driver1 driver2 driver3)
+)

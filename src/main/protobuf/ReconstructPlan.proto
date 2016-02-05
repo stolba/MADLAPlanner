@@ -1,0 +1,14 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufReconstructPlanMessage";
+
+
+message PBReconstructPlanMessage  {
+
+	required int32 lastStateHash = 1;
+	repeated string plan = 2;
+	required string initiator = 3;
+	required int32 solutionCost = 4;
+
+}

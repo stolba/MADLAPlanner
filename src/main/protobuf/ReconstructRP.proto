@@ -1,0 +1,13 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ReconstructRPMessage";
+
+
+message PBReconstructRPMessage  {
+
+	required int32 actionHash = 1;
+	repeated int32 relaxedPlan = 2;
+
+
+}

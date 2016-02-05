@@ -1,0 +1,160 @@
+#!/bin/bash
+
+ ./run_on_domain.sh benchmarks-excerpt/rovers add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/rovers add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers add 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers add 2 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/rovers add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF -1 10
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF-multi -1 10
+
+ ./run_on_domain.sh benchmarks-excerpt/rovers-ipc add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/rovers-ipc add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers add 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers add 2 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/rovers-ipc add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/rovers FF -1 10
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF-multi -1 10
+
+ ./run_on_domain.sh benchmarks-excerpt/deconfliction add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/deconfliction add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction add 2 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/deconfliction add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 3 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 5 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max 6 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 7 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 8 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 9 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 3 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 5 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 6 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 7 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 8 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF 9 10
+# ./run_on_domain.sh benchmarks-excerpt/deconfliction FF -1 10
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF-multi -1 10
+
+ ./run_on_domain.sh benchmarks-excerpt/logistics add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/logistics add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics add 2 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/logistics add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 3 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 5 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 6 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 7 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 8 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 9 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF -1 10
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF-multi -1 10
+
+ ./run_on_domain.sh benchmarks-excerpt/logistics00 add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/logistics00 add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics add 2 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/logistics00 add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 3 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 5 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 6 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 7 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 8 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF 9 10
+# ./run_on_domain.sh benchmarks-excerpt/logistics FF -1 10
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF-multi -1 10
+
+ ./run_on_domain.sh benchmarks-excerpt/satellites add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/satellites add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites add-multi 2 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/satellites add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/satellites FF -1 10
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF-multi -1 10
+
+ ./run_on_domain.sh benchmarks-excerpt/sokoban add-multi 0 10
+ ./run_on_domain.sh benchmarks-excerpt/sokoban add-multi 1 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban add 2 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban add 4 10
+ ./run_on_domain.sh benchmarks-excerpt/sokoban add-multi -1 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban max 0 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban max 1 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban max 2 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban max 4 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban max -1 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban FF 0 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban FF 1 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban FF 2 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban FF 4 10
+# ./run_on_domain.sh benchmarks-excerpt/sokoban FF -1 10
+./run_on_domain.sh benchmarks-excerpt/sokoban rdFF-multi 0 10
+./run_on_domain.sh benchmarks-excerpt/sokoban rdFF-multi 1 10
+./run_on_domain.sh benchmarks-excerpt/sokoban rdFF-multi -1 10

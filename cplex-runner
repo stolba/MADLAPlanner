@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm problem.sol
+cplex < read_and_solve_cplex

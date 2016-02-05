@@ -1,0 +1,105 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>MADLA Planner</name>
+    <!-- TODO: after change of this version or version of the parent, remove the comment -->
+    <!-- groupId>cz.agents</groupId -->
+    <artifactId>madla-planner</artifactId>
+    <!-- version>1.0-SNAPSHOT</version -->
+    <description>
+        Multi-Agent Distributed Lazily Asynchronous Planner.
+    </description>
+    <url>http://jones.felk.cvut.cz/redmine/projects/madla/wiki</url>
+
+    <parent>
+        <groupId>cz.agents</groupId>
+        <artifactId>atgparent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+      <repository>
+        <id>clojars</id>
+        <url>http://clojars.org/repo/</url>
+      </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>cz.agents.alite</groupId>
+            <artifactId>alite</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>cz.agents</groupId>
+            <artifactId>dimaptools</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+              <groupId>com.google.protobuf</groupId>
+              <artifactId>protobuf-java</artifactId>
+              <version>2.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cz.agents.alite</groupId>
+            <artifactId>zeromq</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.clojure</groupId>
+            <artifactId>clojure</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.clojure</groupId>
+            <artifactId>core.match</artifactId>
+            <version>0.2.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>jar-with-dependecies</id>
+                        <configuration>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                            <archive>
+                                <manifest>
+                                    <mainClass>cz.agents.alite.Main</mainClass>
+                                </manifest>
+                            </archive>
+                        </configuration>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

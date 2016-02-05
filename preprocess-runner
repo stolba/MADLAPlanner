@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./misc/fd/src/preprocess/preprocess < output.sas

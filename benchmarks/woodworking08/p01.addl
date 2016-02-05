@@ -1,0 +1,4 @@
+(define (problem wood-prob)
+  (:domain woodworking)
+  (:agents grinder0 glazer0 immersion-varnisher0 planer0 highspeed-saw0 spray-varnisher0 saw0)
+ )

@@ -1,0 +1,93 @@
+1. Skipping translator
+
+2. Running preprocessor
+Building causal graph...
+The causal graph is acyclic.
+7 variables of 9 necessary
+0 of 9 mutex groups necessary.
+54 of 78 operators necessary.
+0 of 0 axiom rules necessary.
+Initializing mutex computation...
+Mutex computation initialized with 34 fluents.
+iteration for mutex detection and operator pruning
+Initialize m_index fw
+Initialized mvalues forward: reached=49, notReached=933, spurious=174
+Initialize m_ops fw
+Computing mutexes...
+Mutex computation finished with reached=982, notReached=0, spurious=174
+0 operators are spurious because were not triggered
+H^2 mutexes added fw: 0, unreachable: 0
+0 of 54 operators detected as spurious
+iteration for mutex detection and operator pruning
+Initialize m_index bw
+Init values regression
+Initialized mvalues backward: reached=94, notReached=888, spurious=174
+Initialize m_ops bw
+Computing mutexes...
+Mutex computation finished with reached=982, notReached=0, spurious=174
+0 operators are spurious because were not triggered
+H^2 mutexes added bw: 0, unreachable: 0
+0 of 54 operators detected as spurious
+Total mutex and disambiguation time: 0
+0 of 0 mutex groups necessary.
+54 of 54 operators necessary.
+0 of 0 axiom rules necessary.
+Change id of operators: 54
+Change id of axioms: 0
+Change id of mutexes
+Change id of goals
+Change id of initial state
+Remove unreachable facts from variables: 7
+0 of 0 mutex groups necessary.
+54 of 54 operators necessary.
+0 of 0 axiom rules necessary.
+Updating causal graph and pruning unnecessary facts
+7 variables of 7 of 9 necessary
+The causal graph is acyclic.
+0 of 0 mutex groups necessary.
+54 of 54 operators necessary.
+0 of 0 axiom rules necessary.
+Ordering: 7
+previous variable order: var8 - var7 - var0 - var6 - var4 - var3 - var1 - : 170
+New value: 86
+new variable order: var6 - var1 - var8 - var0 - var7 - var4 - var3 - : 86
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+Preprocessor facts: 34
+Preprocessor derived variables: 0
+Preprocessor task size: 255
+Writing output...
+Number of vars: 7
+weighted 7
+done
+
+
+3. Running search
+Dispatcher selected state size 1.
+This is a unit task.
+Simplifying transitions... done!
+usage: 
+./src/search/downward-1 [OPTIONS] --search SEARCH < OUTPUT
+
+* SEARCH (SearchEngine): configuration of the search algorithm
+* OUTPUT (filename): preprocessor output
+
+Options:
+--help [NAME]
+    Prints help for all heuristics, openlists, etc. called NAME.
+    Without parameter: prints help for everything available
+--landmarks LANDMARKS_PREDEFINITION
+    Predefines a set of landmarks that can afterwards be referenced
+    by the name that is specified in the definition.
+--heuristic HEURISTIC_PREDEFINITION
+    Predefines a heuristic that can afterwards be referenced
+    by the name that is specified in the definition.
+--random-seed SEED
+    Use random seed SEED
+
+--plan-file FILENAME
+    Plan will be output to a file called FILENAME
+
+See http://www.fast-downward.org/ for details.
+Peak memory: 4324 KB

@@ -1,0 +1,14 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufActionCostMessage";
+
+
+message PBActionCostMessage  {
+
+	required int32 stateHash = 1;
+	required int32 actionHash = 2;
+	required int32 heuristicValue = 3;
+
+
+}

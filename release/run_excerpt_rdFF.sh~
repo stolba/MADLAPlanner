@@ -1,0 +1,48 @@
+#!/bin/bash
+
+TIME_LIMIT=5
+
+#rovers 1x
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF-ha 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF-ha -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers rdFF-multi 0 TIME_LIMIT
+
+#rovers-ipc 2x
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF-ha 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF-ha -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/rovers-ipc rdFF-multi 0 TIME_LIMIT
+
+#deconfliction 2x
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF-ha 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF-ha -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/deconfliction rdFF-multi 0 TIME_LIMIT
+
+#logistics 2x
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF-ha 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF-ha -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics rdFF-multi 0 TIME_LIMIT
+
+#logistics 3x
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF-ha 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF-ha -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/logistics00 rdFF-multi 0 TIME_LIMIT
+
+#satellites 3x
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF-ha 0 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF-ha -1 TIME_LIMIT
+./run_on_domain.sh benchmarks-excerpt/satellites rdFF-multi 0 TIME_LIMIT
+
+#5*13 = 65 problems
+#65*5 = 325min. <= 6h

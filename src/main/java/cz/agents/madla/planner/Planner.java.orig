@@ -1,0 +1,164 @@
+package cz.agents.madla.planner;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import cz.agents.alite.communication.Communicator;
+import cz.agents.alite.configurator.MapConfiguration;
+import cz.agents.dimaptools.DIMAPWorldInterface;
+import cz.agents.dimaptools.domain.Problem;
+import cz.agents.dimaptools.experiment.DataAccumulator;
+import cz.agents.dimaptools.heuristic.HeuristicInterface;
+import cz.agents.dimaptools.relaxed.AdditiveHeuristic;
+import cz.agents.dimaptools.relaxed.DistributedAdditiveHeuristic;
+import cz.agents.dimaptools.relaxed.DistributedMaxHeuristic;
+import cz.agents.dimaptools.relaxed.FFHeuristic;
+import cz.agents.dimaptools.relaxed.LazilyDistributedFFHeuristic;
+import cz.agents.dimaptools.relaxed.MaxHeuristic;
+import cz.agents.dimaptools.relaxed.RecursiveDistributedAdditiveHeuristic;
+import cz.agents.dimaptools.relaxed.RecursiveDistributedFFHeuristic;
+import cz.agents.dimaptools.relaxed.RecursiveDistributedMaxHeuristic;
+import cz.agents.dimaptools.search.DistributedAStar;
+import cz.agents.dimaptools.search.SearchInterface;
+import cz.agents.madla.executor.PlanTestExecutor;
+
+public class Planner {
+
+	private final static Logger LOGGER = Logger.getLogger(Planner.class);
+
+	private final DIMAPWorldInterface world;
+	private final Problem problem;
+	private final Communicator comm;
+
+	private final PlanTestExecutor executor;
+
+	HeuristicInterface heuristic;
+	HeuristicInterface requestHeuristic;
+
+
+
+
+	public Planner(String useHeuristic, int recursionLevel, DIMAPWorldInterface world, PlanTestExecutor executor) {
+		this.world = world;
+		this.problem = world.getProblem();
+		this.comm = world.getCommunicator();
+		this.executor = executor;
+
+		if(useHeuristic.equals("add")){
+
+			if(recursionLevel == 0){
+				heuristic = new AdditiveHeuristic(problem);
+				requestHeuristic = heuristic;
+			}else if(recursionLevel == 1){
+				heuristic = new DistributedAdditiveHeuristic(world,false);
+				requestHeuristic = new DistributedAdditiveHeuristic(world,true);
+			}else if(recursionLevel > 1){
+				heuristic = new RecursiveDistributedAdditiveHeuristic(world,false,recursionLevel);
+				requestHeuristic = new RecursiveDistributedAdditiveHeuristic(world,true,recursionLevel);
+			}else if(recursionLevel == -1){
+				heuristic = new RecursiveDistributedAdditiveHeuristic(world,false);
+				requestHeuristic = new RecursiveDistributedAdditiveHeuristic(world,true);
+			}
+
+		}else if(useHeuristic.equals("max")){
+
+			if(recursionLevel == 0){
+				heuristic = new MaxHeuristic(problem);
+				requestHeuristic = heuristic;
+			}else if(recursionLevel == 1){
+				heuristic = new DistributedMaxHeuristic(world,false);
+				requestHeuristic = new DistributedMaxHeuristic(world,true);
+			}else if(recursionLevel > 1){
+				heuristic = new RecursiveDistributedMaxHeuristic(world,false,recursionLevel);
+				requestHeuristic = new RecursiveDistributedMaxHeuristic(world,true,recursionLevel);
+			}else if(recursionLevel == -1){
+				heuristic = new RecursiveDistributedMaxHeuristic(world,false);
+				requestHeuristic = new RecursiveDistributedMaxHeuristic(world,true);
+			}
+
+		}else if(useHeuristic.equals("FF")){
+
+			if(recursionLevel == 0){
+				heuristic = new FFHeuristic(problem);
+				requestHeuristic = heuristic;
+			}else if(recursionLevel > 0){
+				heuristic = new LazilyDistributedFFHeuristic(problem,comm,false,recursionLevel);
+				requestHeuristic = new LazilyDistributedFFHeuristic(problem,comm,true,recursionLevel);
+			}else if(recursionLevel == -1){
+				heuristic = new LazilyDistributedFFHeuristic(problem,comm,false);
+				requestHeuristic = new LazilyDistributedFFHeuristic(problem,comm,true);
+			}
+
+		}else if(useHeuristic.equals("rdFF")){
+
+			if(recursionLevel == 0){
+				heuristic = new FFHeuristic(problem);
+				requestHeuristic = heuristic;
+			}else if(recursionLevel == 1){
+				heuristic = new RecursiveDistributedFFHeuristic(world,false,recursionLevel);
+				requestHeuristic = new RecursiveDistributedFFHeuristic(world,true,recursionLevel);
+			}else if(recursionLevel > 1){
+				heuristic = new RecursiveDistributedFFHeuristic(world,false,recursionLevel);
+				requestHeuristic = new RecursiveDistributedFFHeuristic(world,true,recursionLevel);
+			}else if(recursionLevel == -1){
+				heuristic = new RecursiveDistributedFFHeuristic(world,false);
+				requestHeuristic = new RecursiveDistributedFFHeuristic(world,true);
+			}
+
+		}else if(useHeuristic.equals("LMcut")){
+
+			if(recursionLevel == 0){
+				heuristic = new LMCutHeuristic(problem);
+				requestHeuristic = heuristic;
+			}
+
+		}
+	}
+
+
+	public void plan(long timeLimitMs){
+
+        DistributedAStar search = new DistributedAStar(world, timeLimitMs);
+
+        search.plan(new MapConfiguration("heuristic",heuristic,"requestHeuristic",requestHeuristic), new SearchInterface.SearchCallback() {
+
+        	@Override
+            public void planNotFound() {
+                System.out.println("Plan not found!");
+                DataAccumulator.getAccumulator().finishTimeMs = System.currentTimeMillis();
+                DataAccumulator.getAccumulator().finished = false;
+                DataAccumulator.getAccumulator().planLength = -1;
+                DataAccumulator.getAccumulator().planValid = false;
+            }
+
+
+
+			@Override
+			public void planFoundByOther() {
+				System.out.println("Plan found by other agent...");
+			}
+
+            @Override
+            public void planFound(List<String> plan) {
+            	if(!DataAccumulator.getAccumulator().finished){
+	            	DataAccumulator.getAccumulator().finishTimeMs = System.currentTimeMillis();
+	                DataAccumulator.getAccumulator().finished = true;
+	                DataAccumulator.getAccumulator().planLength = plan.size();
+	                System.out.println(plan);
+	                DataAccumulator.getAccumulator().planValid = executor.testPlan(plan);
+            	}
+            }
+
+        });
+
+	}
+
+
+	public String getName() {
+		return comm.getAddress();
+	}
+
+
+
+}

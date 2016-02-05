@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for seed in {1..3}
+do
+#    ./run_some_toy.sh
+#    ./run_some_raz.sh
+    ./run_excerpt.sh
+    ./run_excerpt_ha.sh
+    ./run_excerpt_multi.sh
+done

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm problem.sol
+lp_solve problem.lp > problem.sol

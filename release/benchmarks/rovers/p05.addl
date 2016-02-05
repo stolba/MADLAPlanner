@@ -1,0 +1,3 @@
+(define (problem roverprob2435) (:domain Rover)
+(:agents rover0 rover1)
+)

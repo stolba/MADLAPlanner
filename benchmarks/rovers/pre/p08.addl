@@ -1,0 +1,4 @@
+(define (problem truck-crane-p1)
+    (:domain truck-crane)
+    (:agents rover0 rover1 rover2 rover3)
+)

@@ -1,0 +1,15 @@
+package protocol;
+
+option java_package = "cz.agents.madla.communication.generated";
+option java_outer_classname = "ProtobufHeuristicRequestMessage";
+
+
+message PBHeuristicRequestMessage  {
+
+	required int32 hash = 1;
+	repeated int32 stateValues = 2;
+	repeated int32 requestedValues = 3;
+	required int32 recursionDepth = 4;
+
+
+}

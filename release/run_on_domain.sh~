@@ -1,0 +1,19 @@
+#!/bin/bash
+#Arguments: <benchmark_folder> <add|max\FF> <recursion_depth> <time_limit(min)>
+#           $1                 $2           $3                $4
+
+JAVA="/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/java"
+#JAVA="java"
+
+FILES="$1/*.pddl"
+
+for f in $FILES
+do
+  echo "processing $f ..."
+
+  if [ `expr match "$f" '.*domain'` -eq 0 ]
+    then
+      echo timeout -s SIGSEGV $(($4+1))m $JAVA -jar madla-planner.jar cz.agents.madla.creator.SASCreator "$1/domain.pddl" $f ${f/%.pddl/.addl} $2 $3 $4
+      timeout -s SIGSEGV $(($4+1))m $JAVA -jar madla-planner.jar cz.agents.madla.creator.SASCreator "$1/domain.pddl" $f ${f/%.pddl/.addl} $2 $3 $4
+  fi
+done

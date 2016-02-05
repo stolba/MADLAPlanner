@@ -1,0 +1,657 @@
+domain,problem,heuristic,recursionLevel,totalTimeM,planLengthM,expandedStatesM
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-0.pddl,FF, 0,   2241.2,        61.6,   14782.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-0.pddl,PPsaFF-glcl,-1,   2252.4,        61.2,   11666.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-0.pddl,PPsaFF-sync,-1,   5087.2,        60.2,   14401.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-1.pddl,FF, 0,   2522.7,        78.4,   24260.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-1.pddl,PPsaFF-glcl,-1,   2489.6,        78.8,   19493.9
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-1.pddl,PPsaFF-sync,-1,   3067.7,        70.2,    4914.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-2.pddl,FF, 0,   4424.7,        66.6,   90304.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-2.pddl,PPsaFF-glcl,-1,   3265.5,        54.6,   41800.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-10-2.pddl,PPsaFF-sync,-1,   3262.2,        66.8,    5835.2
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-0.pddl,FF, 0,   2660.5,        60.6,   14770.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-0.pddl,PPsaFF-glcl,-1,   2434.7,        62.0,    6893.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-0.pddl,PPsaFF-sync,-1,   3246.5,        56.8,    3805.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-1.pddl,FF, 0,   2750.7,        92.8,   18406.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-1.pddl,PPsaFF-glcl,-1,   2690.9,        73.0,   12610.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-1.pddl,PPsaFF-sync,-1,  10035.2,       106.0,   31030.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-2.pddl,FF, 0,  10575.7,        88.4,  294881.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-2.pddl,PPsaFF-glcl,-1,   5511.5,        71.2,   93219.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-11-2.pddl,PPsaFF-sync,-1,   3916.4,        84.6,    5924.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-12-0.pddl,FF, 0,   4587.8,       107.4,   63324.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-12-0.pddl,PPsaFF-glcl,-1,   5861.0,        91.0,   79193.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-12-0.pddl,PPsaFF-sync,-1,  10300.4,       123.2,   40438.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-12-1.pddl,FF, 0,   4187.3,       103.8,   40833.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-12-1.pddl,PPsaFF-glcl,-1,  10329.5,       114.4,  185793.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-12-1.pddl,PPsaFF-sync,-1,   9638.9,       139.2,   33153.9
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-13-0.pddl,FF, 0,  18825.2,       146.4,  320578.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-13-0.pddl,PPsaFF-glcl,-1,  15638.8,       161.6,  246586.9
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-13-0.pddl,PPsaFF-sync,-1,  17645.7,       169.6,   58663.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-13-1.pddl,FF, 0,  18284.4,       129.2,  307429.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-13-1.pddl,PPsaFF-glcl,-1,  22155.3,       137.8,  380016.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-13-1.pddl,PPsaFF-sync,-1,  17980.4,       152.6,   57542.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-14-0.pddl,FF, 0,  10997.4,        93.2,  124143.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-14-0.pddl,PPsaFF-glcl,-1,  10414.5,        94.4,  113123.2
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-14-0.pddl,PPsaFF-sync,-1,  22266.3,       162.2,   55776.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-14-1.pddl,FF, 0, 160926.1,       161.0, 2666318.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-14-1.pddl,PPsaFF-glcl,-1,  13280.5,       118.6,  155206.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-14-1.pddl,PPsaFF-sync,-1,  44878.9,       175.6,   97379.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-15-0.pddl,FF, 0, 318091.8,       190.0, 3377264.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-15-0.pddl,PPsaFF-glcl,-1,  49453.2,       197.4,  612935.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-15-0.pddl,PPsaFF-sync,-1, 140585.8,       232.6,  339173.2
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-15-1.pddl,FF, 0,  44132.6,       175.8,  453666.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-15-1.pddl,PPsaFF-glcl,-1,  27523.1,       195.2,  322369.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-15-1.pddl,PPsaFF-sync,-1,  38198.3,       258.6,   80920.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-16-1.pddl,FF, 0, 131999.5,       216.5, 1309850.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-16-1.pddl,PPsaFF-glcl,-1,  50731.3,       162.4,  576441.9
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-16-1.pddl,PPsaFF-sync,-1, 132062.0,       256.8,  287024.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-16-2.pddl,FF, 0,  99969.9,       166.0, 1012034.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-16-2.pddl,PPsaFF-glcl,-1,  47239.2,       180.6,  510814.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-16-2.pddl,PPsaFF-sync,-1,  31014.5,       161.4,   60984.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-17-0.pddl,PPsaFF-glcl,-1, 189847.5,       208.0, 1852726.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-17-0.pddl,PPsaFF-sync,-1, 102620.5,       287.0,  183231.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-0.pddl,FF, 0,    391.6,        10.2,     202.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-0.pddl,PPsaFF-glcl,-1,    571.4,         9.6,     493.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-0.pddl,PPsaFF-sync,-1,    668.5,         8.4,     323.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-1.pddl,FF, 0,    458.5,        16.4,     392.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-1.pddl,PPsaFF-glcl,-1,    469.2,        12.0,     242.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-1.pddl,PPsaFF-sync,-1,    660.3,        11.8,     316.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-2.pddl,FF, 0,    375.3,         8.6,     145.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-2.pddl,PPsaFF-glcl,-1,    372.0,         6.0,      42.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-4-2.pddl,PPsaFF-sync,-1,    572.1,         7.6,     142.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-0.pddl,FF, 0,    638.9,        20.0,    1651.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-0.pddl,PPsaFF-glcl,-1,    688.9,        11.2,     668.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-0.pddl,PPsaFF-sync,-1,    719.6,        14.0,     191.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-1.pddl,FF, 0,    645.6,        25.8,    1381.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-1.pddl,PPsaFF-glcl,-1,    712.9,        14.4,     787.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-1.pddl,PPsaFF-sync,-1,    884.4,        26.0,     942.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-2.pddl,FF, 0,    678.3,        25.8,    2118.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-2.pddl,PPsaFF-glcl,-1,    785.2,        20.0,    2084.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-5-2.pddl,PPsaFF-sync,-1,    877.1,        29.4,     949.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-0.pddl,FF, 0,    893.0,        28.2,    6718.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-0.pddl,PPsaFF-glcl,-1,    941.9,        33.8,    6112.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-0.pddl,PPsaFF-sync,-1,   1016.2,        33.4,    1275.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-1.pddl,FF, 0,    632.6,        12.8,     103.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-1.pddl,PPsaFF-glcl,-1,    704.2,        13.6,     257.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-1.pddl,PPsaFF-sync,-1,    848.5,        18.2,     522.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-2.pddl,FF, 0,    887.0,        39.8,    6580.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-2.pddl,PPsaFF-glcl,-1,   1004.4,        38.4,    8042.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-6-2.pddl,PPsaFF-sync,-1,   1057.0,        37.6,    1632.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-0.pddl,FF, 0,    957.3,        34.2,    3354.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-0.pddl,PPsaFF-glcl,-1,   1028.3,        28.8,    2976.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-0.pddl,PPsaFF-sync,-1,   1375.3,        47.4,    2439.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-1.pddl,FF, 0,    946.3,        31.0,    2852.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-1.pddl,PPsaFF-glcl,-1,   1057.4,        38.6,    2903.9
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-1.pddl,PPsaFF-sync,-1,   1350.5,        48.8,    2237.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-2.pddl,FF, 0,    984.8,        45.8,    3971.2
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-2.pddl,PPsaFF-glcl,-1,   1066.3,        37.8,    3602.7
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-7-2.pddl,PPsaFF-sync,-1,   1276.0,        39.4,    1713.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-0.pddl,FF, 0,   1414.2,        47.4,   10857.6
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-0.pddl,PPsaFF-glcl,-1,   1591.2,        46.0,   11312.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-0.pddl,PPsaFF-sync,-1,   2720.8,        81.2,    9360.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-1.pddl,FF, 0,   1392.2,        48.8,    9923.2
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-1.pddl,PPsaFF-glcl,-1,   1585.7,        48.0,    9833.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-1.pddl,PPsaFF-sync,-1,   1984.2,        53.2,    4492.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-2.pddl,FF, 0,   1304.2,        43.8,    6045.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-2.pddl,PPsaFF-glcl,-1,   1301.5,        26.6,    2402.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-8-2.pddl,PPsaFF-sync,-1,   1916.4,        55.6,    3726.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-0.pddl,FF, 0,   3063.3,        84.0,   63931.4
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-0.pddl,PPsaFF-glcl,-1,   2638.6,        70.4,   33290.3
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-0.pddl,PPsaFF-sync,-1,   2641.1,        72.2,    5851.5
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-1.pddl,FF, 0,   2508.4,        64.6,   35758.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-1.pddl,PPsaFF-glcl,-1,   2202.2,        64.4,   19812.8
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-1.pddl,PPsaFF-sync,-1,   3016.9,        87.2,    8437.0
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-2.pddl,FF, 0,   3743.5,        62.6,   83540.1
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-2.pddl,PPsaFF-glcl,-1,   3566.5,        74.8,   65476.9
+benchmarks/blocksworld,benchmarks/blocksworld/probBLOCKS-9-2.pddl,PPsaFF-sync,-1,   2730.4,        81.4,    6169.7
+benchmarks/depot,benchmarks/depot/pfile10.pddl,FF, 0,  32253.8,        76.5,  886402.3
+benchmarks/depot,benchmarks/depot/pfile10.pddl,PPsaFF-glcl,-1,  18734.9,       117.0,  627238.2
+benchmarks/depot,benchmarks/depot/pfile10.pddl,PPsaFF-sync,-1, 471118.5,       149.1, 1226905.7
+benchmarks/depot,benchmarks/depot/pfile11.pddl,FF, 0,     -1.0,2147483647.0,13234271.0
+benchmarks/depot,benchmarks/depot/pfile11.pddl,PPsaFF-glcl,-1, 723189.2,       351.1, 8557212.4
+benchmarks/depot,benchmarks/depot/pfile11.pddl,PPsaFF-sync,-1, 410838.0,       354.5,  122948.0
+benchmarks/depot,benchmarks/depot/pfile13.pddl,FF, 0,   2888.5,        33.7,    6327.6
+benchmarks/depot,benchmarks/depot/pfile13.pddl,PPsaFF-glcl,-1,   2829.4,        34.5,    2316.7
+benchmarks/depot,benchmarks/depot/pfile13.pddl,PPsaFF-sync,-1,   3691.1,        39.8,    1744.1
+benchmarks/depot,benchmarks/depot/pfile14.pddl,FF, 0,     -1.0,2147483647.0,11045857.0
+benchmarks/depot,benchmarks/depot/pfile16.pddl,FF, 0,  14919.2,        37.5,  163880.4
+benchmarks/depot,benchmarks/depot/pfile16.pddl,PPsaFF-glcl,-1,  12215.7,        67.3,  202164.0
+benchmarks/depot,benchmarks/depot/pfile16.pddl,PPsaFF-sync,-1, 148138.8,       133.7,  384496.6
+benchmarks/depot,benchmarks/depot/pfile17.pddl,FF, 0,  40916.5, 536870941.0, 2118880.5
+benchmarks/depot,benchmarks/depot/pfile17.pddl,PPsaFF-glcl,-1,  23497.5,        56.0,   76123.0
+benchmarks/depot,benchmarks/depot/pfile19.pddl,FF, 0,     -1.0,2147483647.0,12375583.8
+benchmarks/depot,benchmarks/depot/pfile1.pddl,FF, 0,    341.2,        12.4,     131.0
+benchmarks/depot,benchmarks/depot/pfile1.pddl,PPsaFF-glcl,-1,    500.2,        13.7,     171.0
+benchmarks/depot,benchmarks/depot/pfile1.pddl,PPsaFF-sync,-1,    556.3,        11.6,     118.1
+benchmarks/depot,benchmarks/depot/pfile2.pddl,FF, 0,    719.1,        29.0,     898.0
+benchmarks/depot,benchmarks/depot/pfile2.pddl,PPsaFF-glcl,-1,    757.9,        25.8,     538.6
+benchmarks/depot,benchmarks/depot/pfile2.pddl,PPsaFF-sync,-1,    892.5,        20.4,     336.4
+benchmarks/depot,benchmarks/depot/pfile3.pddl,FF, 0,   1149.0,        74.7,    4214.5
+benchmarks/depot,benchmarks/depot/pfile3.pddl,PPsaFF-glcl,-1,   1284.8,        75.4,    3444.4
+benchmarks/depot,benchmarks/depot/pfile3.pddl,PPsaFF-sync,-1,   3350.9,       104.4,    5241.5
+benchmarks/depot,benchmarks/depot/pfile4.pddl,FF, 0,   2035.4,        89.3,   14592.8
+benchmarks/depot,benchmarks/depot/pfile4.pddl,PPsaFF-glcl,-1,   2147.8,       101.4,   12220.1
+benchmarks/depot,benchmarks/depot/pfile4.pddl,PPsaFF-sync,-1,  15659.7,       116.9,   30797.1
+benchmarks/depot,benchmarks/depot/pfile5.pddl,FF, 0,  13504.3,       234.2,  223753.3
+benchmarks/depot,benchmarks/depot/pfile5.pddl,PPsaFF-glcl,-1,   9961.3,       320.2,  116771.9
+benchmarks/depot,benchmarks/depot/pfile5.pddl,PPsaFF-sync,-1, 137347.4,       365.4,  121486.2
+benchmarks/depot,benchmarks/depot/pfile7.pddl,FF, 0,   2314.5,        86.5,   36302.9
+benchmarks/depot,benchmarks/depot/pfile7.pddl,PPsaFF-glcl,-1,   2994.2,        57.6,   51891.5
+benchmarks/depot,benchmarks/depot/pfile7.pddl,PPsaFF-sync,-1,  14219.2,        94.5,   48221.3
+benchmarks/depot,benchmarks/depot/pfile8.pddl,FF, 0,  44772.2,        83.6,  579555.8
+benchmarks/depot,benchmarks/depot/pfile8.pddl,PPsaFF-glcl,-1,  32607.7,       128.8,  423711.8
+benchmarks/depot,benchmarks/depot/pfile8.pddl,PPsaFF-sync,-1, 259057.9,       358.2,  323640.5
+benchmarks/depot,benchmarks/depot/pfile9.pddl,PPsaFF-glcl,-1, 528288.2,       402.3, 2803599.8
+benchmarks/depot,benchmarks/depot/pfile9.pddl,PPsaFF-sync,-1, 511236.0,       384.8,  294349.5
+benchmarks/driverlog,benchmarks/driverlog/pfile10.pddl,FF, 0,   1549.1,        64.2,   10639.0
+benchmarks/driverlog,benchmarks/driverlog/pfile10.pddl,PPsaFF-glcl,-1,   1745.3,        51.3,    8838.4
+benchmarks/driverlog,benchmarks/driverlog/pfile10.pddl,PPsaFF-sync,-1,   1264.1,        37.3,     756.1
+benchmarks/driverlog,benchmarks/driverlog/pfile11.pddl,FF, 0,   1129.7,        50.1,     860.9
+benchmarks/driverlog,benchmarks/driverlog/pfile11.pddl,PPsaFF-glcl,-1,   1428.1,        44.5,    3567.9
+benchmarks/driverlog,benchmarks/driverlog/pfile11.pddl,PPsaFF-sync,-1,   3677.3,       103.1,   19139.8
+benchmarks/driverlog,benchmarks/driverlog/pfile12.pddl,FF, 0,   5552.7,       120.0,   59836.2
+benchmarks/driverlog,benchmarks/driverlog/pfile12.pddl,PPsaFF-glcl,-1,   3597.5,        96.1,   16430.9
+benchmarks/driverlog,benchmarks/driverlog/pfile12.pddl,PPsaFF-sync,-1,   3328.5,       109.9,    7058.5
+benchmarks/driverlog,benchmarks/driverlog/pfile13.pddl,FF, 0,   2216.8,        76.1,    5907.0
+benchmarks/driverlog,benchmarks/driverlog/pfile13.pddl,PPsaFF-glcl,-1,   2781.4,        58.9,    6878.5
+benchmarks/driverlog,benchmarks/driverlog/pfile13.pddl,PPsaFF-sync,-1,   2519.7,        64.9,    1933.0
+benchmarks/driverlog,benchmarks/driverlog/pfile14.pddl,FF, 0,   3318.2,        89.0,    3090.6
+benchmarks/driverlog,benchmarks/driverlog/pfile14.pddl,PPsaFF-glcl,-1,   3709.1,        89.2,    4737.5
+benchmarks/driverlog,benchmarks/driverlog/pfile14.pddl,PPsaFF-sync,-1,   5661.8,       122.3,    8761.6
+benchmarks/driverlog,benchmarks/driverlog/pfile15.pddl,FF, 0,  14407.7,        74.6,    9724.5
+benchmarks/driverlog,benchmarks/driverlog/pfile15.pddl,PPsaFF-glcl,-1,  14865.6,        83.2,   15444.9
+benchmarks/driverlog,benchmarks/driverlog/pfile17.pddl,FF, 0, 174207.7,       145.4,   84251.8
+benchmarks/driverlog,benchmarks/driverlog/pfile17.pddl,PPsaFF-glcl,-1, 159186.7,       191.2,   94090.1
+benchmarks/driverlog,benchmarks/driverlog/pfile18.pddl,FF, 0, 491944.1,       209.8,  390164.3
+benchmarks/driverlog,benchmarks/driverlog/pfile18.pddl,PPsaFF-glcl,-1, 588210.9,       290.2,  626405.6
+benchmarks/driverlog,benchmarks/driverlog/pfile19.pddl,FF, 0,1005886.0,       230.0,  383253.0
+benchmarks/driverlog,benchmarks/driverlog/pfile19.pddl,PPsaFF-glcl,-1, 913141.0,       312.0,  376931.0
+benchmarks/driverlog,benchmarks/driverlog/pfile1.pddl,FF, 0,    250.0,         7.7,      28.7
+benchmarks/driverlog,benchmarks/driverlog/pfile1.pddl,PPsaFF-glcl,-1,    283.4,         7.7,      47.6
+benchmarks/driverlog,benchmarks/driverlog/pfile1.pddl,PPsaFF-sync,-1,    280.8,         8.0,      25.6
+benchmarks/driverlog,benchmarks/driverlog/pfile2.pddl,FF, 0,    389.1,        33.1,     531.4
+benchmarks/driverlog,benchmarks/driverlog/pfile2.pddl,PPsaFF-glcl,-1,    627.3,        21.8,     536.4
+benchmarks/driverlog,benchmarks/driverlog/pfile2.pddl,PPsaFF-sync,-1,    707.9,        44.3,     362.3
+benchmarks/driverlog,benchmarks/driverlog/pfile3.pddl,FF, 0,    328.7,        14.2,     105.4
+benchmarks/driverlog,benchmarks/driverlog/pfile3.pddl,PPsaFF-glcl,-1,    462.0,        14.5,     219.8
+benchmarks/driverlog,benchmarks/driverlog/pfile3.pddl,PPsaFF-sync,-1,    727.7,        35.2,     419.3
+benchmarks/driverlog,benchmarks/driverlog/pfile4.pddl,FF, 0,    658.6,        25.3,    1307.3
+benchmarks/driverlog,benchmarks/driverlog/pfile4.pddl,PPsaFF-glcl,-1,    777.7,        25.9,    1766.6
+benchmarks/driverlog,benchmarks/driverlog/pfile4.pddl,PPsaFF-sync,-1,    925.3,        35.4,    1047.7
+benchmarks/driverlog,benchmarks/driverlog/pfile5.pddl,FF, 0,    566.1,        24.6,     210.6
+benchmarks/driverlog,benchmarks/driverlog/pfile5.pddl,PPsaFF-glcl,-1,    700.2,        25.7,     337.3
+benchmarks/driverlog,benchmarks/driverlog/pfile5.pddl,PPsaFF-sync,-1,   1072.0,        36.2,    1551.0
+benchmarks/driverlog,benchmarks/driverlog/pfile6.pddl,FF, 0,    718.3,        17.9,     236.6
+benchmarks/driverlog,benchmarks/driverlog/pfile6.pddl,PPsaFF-glcl,-1,    744.8,        16.8,     235.1
+benchmarks/driverlog,benchmarks/driverlog/pfile6.pddl,PPsaFF-sync,-1,    786.8,        14.0,     130.8
+benchmarks/driverlog,benchmarks/driverlog/pfile7.pddl,FF, 0,    855.0,        30.5,     952.5
+benchmarks/driverlog,benchmarks/driverlog/pfile7.pddl,PPsaFF-glcl,-1,    909.2,        28.3,    1041.6
+benchmarks/driverlog,benchmarks/driverlog/pfile7.pddl,PPsaFF-sync,-1,   1692.3,        55.3,    4322.6
+benchmarks/driverlog,benchmarks/driverlog/pfile8.pddl,FF, 0,    879.6,        37.2,     531.5
+benchmarks/driverlog,benchmarks/driverlog/pfile8.pddl,PPsaFF-glcl,-1,    955.3,        35.4,     650.2
+benchmarks/driverlog,benchmarks/driverlog/pfile8.pddl,PPsaFF-sync,-1,   1709.6,        64.0,    3838.1
+benchmarks/driverlog,benchmarks/driverlog/pfile9.pddl,FF, 0,    952.2,        38.9,    1023.6
+benchmarks/driverlog,benchmarks/driverlog/pfile9.pddl,PPsaFF-glcl,-1,   1106.6,        37.2,    1870.5
+benchmarks/driverlog,benchmarks/driverlog/pfile9.pddl,PPsaFF-sync,-1,   1124.2,        42.0,     602.5
+benchmarks/elevators08,benchmarks/elevators08/p01.pddl,FF, 0,    878.5,        32.2,     545.2
+benchmarks/elevators08,benchmarks/elevators08/p01.pddl,PPsaFF-glcl,-1,    952.3,        23.8,     460.9
+benchmarks/elevators08,benchmarks/elevators08/p01.pddl,PPsaFF-sync,-1,   1086.3,        30.2,     511.9
+benchmarks/elevators08,benchmarks/elevators08/p02.pddl,FF, 0,   1076.3,        47.9,    4572.8
+benchmarks/elevators08,benchmarks/elevators08/p02.pddl,PPsaFF-glcl,-1,   1160.7,        39.7,    4533.4
+benchmarks/elevators08,benchmarks/elevators08/p02.pddl,PPsaFF-sync,-1,   1315.5,        43.4,    1636.4
+benchmarks/elevators08,benchmarks/elevators08/p03.pddl,FF, 0,   1434.7,        48.8,   11231.0
+benchmarks/elevators08,benchmarks/elevators08/p03.pddl,PPsaFF-glcl,-1,   1505.9,        33.4,    5894.2
+benchmarks/elevators08,benchmarks/elevators08/p03.pddl,PPsaFF-sync,-1,   1593.6,        44.4,    1736.5
+benchmarks/elevators08,benchmarks/elevators08/p04.pddl,FF, 0,   1607.7,        61.2,   10844.0
+benchmarks/elevators08,benchmarks/elevators08/p04.pddl,PPsaFF-glcl,-1,   1757.4,        51.8,    7042.9
+benchmarks/elevators08,benchmarks/elevators08/p04.pddl,PPsaFF-sync,-1,   1810.2,        53.3,    1446.0
+benchmarks/elevators08,benchmarks/elevators08/p05.pddl,FF, 0,   1600.3,        47.3,    5046.2
+benchmarks/elevators08,benchmarks/elevators08/p05.pddl,PPsaFF-glcl,-1,   1725.6,        43.8,    3184.9
+benchmarks/elevators08,benchmarks/elevators08/p05.pddl,PPsaFF-sync,-1,   4012.3,        98.7,   29454.4
+benchmarks/elevators08,benchmarks/elevators08/p06.pddl,FF, 0,   1802.2,        63.9,    3622.1
+benchmarks/elevators08,benchmarks/elevators08/p06.pddl,PPsaFF-glcl,-1,   2031.2,        58.8,    4060.5
+benchmarks/elevators08,benchmarks/elevators08/p06.pddl,PPsaFF-sync,-1,   2289.0,        71.5,    1739.0
+benchmarks/elevators08,benchmarks/elevators08/p07.pddl,FF, 0,   3314.2,        88.1,   97889.8
+benchmarks/elevators08,benchmarks/elevators08/p07.pddl,PPsaFF-glcl,-1,   2638.4,        68.4,   19863.4
+benchmarks/elevators08,benchmarks/elevators08/p07.pddl,PPsaFF-sync,-1,   2621.4,        89.0,    2513.3
+benchmarks/elevators08,benchmarks/elevators08/p08.pddl,FF, 0,   4261.1,        77.7,  126266.9
+benchmarks/elevators08,benchmarks/elevators08/p08.pddl,PPsaFF-glcl,-1,   4055.6,        77.0,   75070.5
+benchmarks/elevators08,benchmarks/elevators08/p08.pddl,PPsaFF-sync,-1,   3490.0,       101.7,    8892.7
+benchmarks/elevators08,benchmarks/elevators08/p09.pddl,FF, 0,   2590.3,        66.9,   12523.0
+benchmarks/elevators08,benchmarks/elevators08/p09.pddl,PPsaFF-glcl,-1,   3058.2,        69.4,   18338.6
+benchmarks/elevators08,benchmarks/elevators08/p09.pddl,PPsaFF-sync,-1,   3278.6,        96.7,    3834.0
+benchmarks/elevators08,benchmarks/elevators08/p10.pddl,FF, 0,   3636.9,       132.7,   56563.5
+benchmarks/elevators08,benchmarks/elevators08/p10.pddl,PPsaFF-glcl,-1,   4046.4,       116.0,   39240.4
+benchmarks/elevators08,benchmarks/elevators08/p10.pddl,PPsaFF-sync,-1,   3800.8,       134.2,    4180.1
+benchmarks/elevators08,benchmarks/elevators08/p11.pddl,FF, 0,   3150.9,        54.4,    2883.5
+benchmarks/elevators08,benchmarks/elevators08/p11.pddl,PPsaFF-glcl,-1,   3780.3,        58.7,   18562.2
+benchmarks/elevators08,benchmarks/elevators08/p11.pddl,PPsaFF-sync,-1,   3739.9,        67.5,    2203.6
+benchmarks/elevators08,benchmarks/elevators08/p12.pddl,FF, 0,  11075.0,       109.4,  337396.7
+benchmarks/elevators08,benchmarks/elevators08/p12.pddl,PPsaFF-glcl,-1,   5824.3,        86.3,   59865.2
+benchmarks/elevators08,benchmarks/elevators08/p12.pddl,PPsaFF-sync,-1,   5154.3,        95.9,    4087.4
+benchmarks/elevators08,benchmarks/elevators08/p13.pddl,FF, 0,  75532.5,       139.5, 2424652.5
+benchmarks/elevators08,benchmarks/elevators08/p13.pddl,PPsaFF-glcl,-1,   9302.4,       100.3,  124009.8
+benchmarks/elevators08,benchmarks/elevators08/p13.pddl,PPsaFF-sync,-1,   6356.1,       112.2,    4488.9
+benchmarks/elevators08,benchmarks/elevators08/p14.pddl,FF, 0,  40192.3,       156.9,  983981.6
+benchmarks/elevators08,benchmarks/elevators08/p14.pddl,PPsaFF-glcl,-1,  16068.3,       171.2,  224308.4
+benchmarks/elevators08,benchmarks/elevators08/p14.pddl,PPsaFF-sync,-1,   9524.2,       175.6,    7924.8
+benchmarks/elevators08,benchmarks/elevators08/p15.pddl,FF, 0,  17548.8,       149.2,  241124.5
+benchmarks/elevators08,benchmarks/elevators08/p15.pddl,PPsaFF-glcl,-1,  21595.3,       139.2,  299463.8
+benchmarks/elevators08,benchmarks/elevators08/p15.pddl,PPsaFF-sync,-1,  12504.9,       164.2,    9230.5
+benchmarks/elevators08,benchmarks/elevators08/p16.pddl,FF, 0,  15338.2, 429496870.4, 1890514.2
+benchmarks/elevators08,benchmarks/elevators08/p16.pddl,PPsaFF-glcl,-1,  17317.2,       138.4,  131561.1
+benchmarks/elevators08,benchmarks/elevators08/p16.pddl,PPsaFF-sync,-1,  12499.8,       151.0,    7948.6
+benchmarks/elevators08,benchmarks/elevators08/p17.pddl,FF, 0,  10163.7,1431655821.7, 3093833.3
+benchmarks/elevators08,benchmarks/elevators08/p17.pddl,PPsaFF-glcl,-1,  73461.1,       179.6, 1200443.2
+benchmarks/elevators08,benchmarks/elevators08/p17.pddl,PPsaFF-sync,-1,  18407.2,       195.1,   17822.2
+benchmarks/elevators08,benchmarks/elevators08/p18.pddl,FF, 0,  67494.8, 536871120.0, 2648623.0
+benchmarks/elevators08,benchmarks/elevators08/p18.pddl,PPsaFF-glcl,-1, 162078.0,       363.7, 1903508.0
+benchmarks/elevators08,benchmarks/elevators08/p18.pddl,PPsaFF-sync,-1,  82172.2,       466.7,   96360.4
+benchmarks/elevators08,benchmarks/elevators08/p19.pddl,FF, 0,  89189.2,       300.8, 1093909.2
+benchmarks/elevators08,benchmarks/elevators08/p19.pddl,PPsaFF-glcl,-1, 136890.4,       306.2, 1316597.2
+benchmarks/elevators08,benchmarks/elevators08/p19.pddl,PPsaFF-sync,-1,  61772.2,       351.2,   69115.3
+benchmarks/elevators08,benchmarks/elevators08/p20.pddl,FF, 0,  30143.5,1073741908.0, 2100551.5
+benchmarks/elevators08,benchmarks/elevators08/p20.pddl,PPsaFF-glcl,-1, 269778.5,       247.0, 2782199.0
+benchmarks/elevators08,benchmarks/elevators08/p20.pddl,PPsaFF-sync,-1, 357895.8,       283.9,  620160.1
+benchmarks/elevators08,benchmarks/elevators08/p21.pddl,FF, 0,  62164.4,       231.4, 1180070.0
+benchmarks/elevators08,benchmarks/elevators08/p21.pddl,PPsaFF-glcl,-1,  23699.4,       134.7,  110325.2
+benchmarks/elevators08,benchmarks/elevators08/p21.pddl,PPsaFF-sync,-1,  24078.5,       176.2,   20372.8
+benchmarks/elevators08,benchmarks/elevators08/p22.pddl,FF, 0,  60863.2, 357914130.0, 1545275.5
+benchmarks/elevators08,benchmarks/elevators08/p22.pddl,PPsaFF-glcl,-1,  38338.7,       171.0,  173060.9
+benchmarks/elevators08,benchmarks/elevators08/p22.pddl,PPsaFF-sync,-1,  60431.3,       209.6,  133236.8
+benchmarks/elevators08,benchmarks/elevators08/p23.pddl,FF, 0,  69995.2, 536871081.5, 1635818.2
+benchmarks/elevators08,benchmarks/elevators08/p23.pddl,PPsaFF-glcl,-1,  64036.5,       193.7,  358494.5
+benchmarks/elevators08,benchmarks/elevators08/p23.pddl,PPsaFF-sync,-1, 293643.4,       320.1,  904420.5
+benchmarks/elevators08,benchmarks/elevators08/p24.pddl,FF, 0, 147087.7,       316.3, 1494119.0
+benchmarks/elevators08,benchmarks/elevators08/p24.pddl,PPsaFF-glcl,-1, 103976.5,       257.8,  543650.7
+benchmarks/elevators08,benchmarks/elevators08/p24.pddl,PPsaFF-sync,-1, 166449.5,       314.2,  344316.9
+benchmarks/elevators08,benchmarks/elevators08/p25.pddl,FF, 0,  67032.5,1073741975.5, 2236306.5
+benchmarks/elevators08,benchmarks/elevators08/p25.pddl,PPsaFF-glcl,-1, 161965.1,       281.3,  854475.1
+benchmarks/elevators08,benchmarks/elevators08/p25.pddl,PPsaFF-sync,-1, 199684.7,       362.5,  127923.6
+benchmarks/elevators08,benchmarks/elevators08/p26.pddl,FF, 0, 145164.0,       311.7,  744290.7
+benchmarks/elevators08,benchmarks/elevators08/p26.pddl,PPsaFF-glcl,-1, 231946.2,       285.0, 1085706.4
+benchmarks/elevators08,benchmarks/elevators08/p26.pddl,PPsaFF-sync,-1, 195357.0,       359.9,  162509.0
+benchmarks/elevators08,benchmarks/elevators08/p27.pddl,FF, 0,     -1.0,2147483647.0, 2662222.0
+benchmarks/elevators08,benchmarks/elevators08/p27.pddl,PPsaFF-glcl,-1, 314667.1,       396.7, 1247105.9
+benchmarks/elevators08,benchmarks/elevators08/p27.pddl,PPsaFF-sync,-1, 194193.4,       427.6,  104070.0
+benchmarks/elevators08,benchmarks/elevators08/p28.pddl,FF, 0, 372010.0,       515.0, 1888226.0
+benchmarks/elevators08,benchmarks/elevators08/p28.pddl,PPsaFF-glcl,-1, 623170.5,       414.5, 2195895.0
+benchmarks/elevators08,benchmarks/elevators08/p28.pddl,PPsaFF-sync,-1, 479929.9,       565.6,  129564.3
+benchmarks/elevators08,benchmarks/elevators08/p29.pddl,FF, 0,     -1.0,2147483647.0, 2407998.3
+benchmarks/elevators08,benchmarks/elevators08/p29.pddl,PPsaFF-glcl,-1, 713003.7,       408.7, 2255283.7
+benchmarks/elevators08,benchmarks/elevators08/p29.pddl,PPsaFF-sync,-1, 440854.1,       453.0,  215427.6
+benchmarks/elevators08,benchmarks/elevators08/p30.pddl,PPsaFF-glcl,-1, 810316.0,       412.0, 1774083.5
+benchmarks/elevators08,benchmarks/elevators08/p30.pddl,PPsaFF-sync,-1, 432208.2,       447.4,  137761.0
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-10-0.pddl,FF, 0,    817.5,        64.4,    9559.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-10-0.pddl,PPsaFF-glcl,-1,    949.9,        63.3,    8013.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-10-0.pddl,PPsaFF-sync,-1,   1157.5,        65.9,    1275.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-10-1.pddl,FF, 0,    730.2,        58.6,    3164.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-10-1.pddl,PPsaFF-glcl,-1,    829.5,        57.4,    4007.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-10-1.pddl,PPsaFF-sync,-1,   1157.2,        68.0,    1376.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-11-0.pddl,FF, 0,    910.4,        74.3,   12476.3
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-11-0.pddl,PPsaFF-glcl,-1,   1004.5,        74.7,   13949.9
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-11-0.pddl,PPsaFF-sync,-1,   1178.5,        71.3,    1359.6
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-11-1.pddl,FF, 0,   1000.7,        95.2,   23836.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-11-1.pddl,PPsaFF-glcl,-1,    998.0,        92.4,   11751.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-11-1.pddl,PPsaFF-sync,-1,   1257.4,        80.7,    1680.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-12-0.pddl,FF, 0,    742.7,        57.5,    2594.9
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-12-0.pddl,PPsaFF-glcl,-1,    893.2,        57.1,    3465.2
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-12-0.pddl,PPsaFF-sync,-1,   1414.8,        68.7,    2850.2
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-12-1.pddl,FF, 0,   1664.8,       110.9,  119423.3
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-12-1.pddl,PPsaFF-glcl,-1,   2157.9,       104.9,  144185.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-12-1.pddl,PPsaFF-sync,-1,   1486.6,       109.3,    3379.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-13-0.pddl,FF, 0,  19961.8,       137.6, 2071574.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-13-0.pddl,PPsaFF-glcl,-1,   3196.3,       109.3,  246229.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-13-0.pddl,PPsaFF-sync,-1,   2084.2,       113.9,    4180.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-13-1.pddl,FF, 0,   2442.9,        90.8,  148202.9
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-13-1.pddl,PPsaFF-glcl,-1,   2286.9,        93.6,  105154.6
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-13-1.pddl,PPsaFF-sync,-1,   2230.9,       111.8,    6899.9
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-14-0.pddl,FF, 0,   2229.2,        83.5,  106937.3
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-14-0.pddl,PPsaFF-glcl,-1,   5144.7,        87.5,  572569.4
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-14-0.pddl,PPsaFF-sync,-1,   1971.4,        95.3,    4053.7
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-14-1.pddl,FF, 0,   9931.9,       116.2, 1134285.2
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-14-1.pddl,PPsaFF-glcl,-1,   3504.9,       105.2,  302539.6
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-14-1.pddl,PPsaFF-sync,-1,   2044.6,       106.4,    4107.0
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-15-0.pddl,FF, 0,   2759.3,       117.0,  149868.6
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-15-0.pddl,PPsaFF-glcl,-1,   9339.0,       111.8,  960741.0
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-15-0.pddl,PPsaFF-sync,-1,   2416.9,       128.8,    4780.4
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-15-1.pddl,FF, 0,   1778.0,        96.9,   41463.2
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-15-1.pddl,PPsaFF-glcl,-1,   1920.2,       100.5,   51703.2
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-15-1.pddl,PPsaFF-sync,-1,   3209.4,       123.9,   11677.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,FF, 0,    204.3,        27.6,     324.7
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,PPsaFF-glcl,-1,    252.8,        27.0,     653.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,PPsaFF-sync,-1,    283.3,        25.0,     222.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-5-0.pddl,FF, 0,    233.2,        37.0,     531.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-5-0.pddl,PPsaFF-glcl,-1,    392.0,        37.5,    1906.6
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-5-0.pddl,PPsaFF-sync,-1,    307.3,        34.4,     242.4
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-6-0.pddl,FF, 0,    230.9,        35.0,     333.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-6-0.pddl,PPsaFF-glcl,-1,    308.5,        34.4,     446.4
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-6-0.pddl,PPsaFF-sync,-1,    396.0,        29.6,     286.3
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-7-0.pddl,FF, 0,    384.9,        50.8,    1036.4
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-7-0.pddl,PPsaFF-glcl,-1,    636.1,        51.2,    1335.4
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-7-0.pddl,PPsaFF-sync,-1,    823.2,        43.9,     665.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-8-0.pddl,FF, 0,    625.0,        39.0,    2244.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-8-0.pddl,PPsaFF-glcl,-1,    841.8,        41.0,    6207.3
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-8-0.pddl,PPsaFF-sync,-1,    855.9,        45.2,     764.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-8-1.pddl,FF, 0,    760.6,        67.6,    5945.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-8-1.pddl,PPsaFF-glcl,-1,    833.8,        70.1,    6111.9
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-8-1.pddl,PPsaFF-sync,-1,    917.5,        60.7,     741.9
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-9-0.pddl,FF, 0,    648.9,        52.6,    2786.2
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-9-0.pddl,PPsaFF-glcl,-1,    739.2,        47.7,    2226.3
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-9-0.pddl,PPsaFF-sync,-1,    796.7,        43.9,     579.5
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-9-1.pddl,FF, 0,    627.7,        41.5,    1862.1
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-9-1.pddl,PPsaFF-glcl,-1,    706.1,        47.9,    3420.8
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-9-1.pddl,PPsaFF-sync,-1,    946.5,        43.8,    1244.2
+benchmarks/openstacks,benchmarks/openstacks/p01.pddl,FF, 0,    256.5,        18.8,     107.3
+benchmarks/openstacks,benchmarks/openstacks/p01.pddl,PPsaFF-glcl,-1,    312.0,        18.4,     264.5
+benchmarks/openstacks,benchmarks/openstacks/p01.pddl,PPsaFF-sync,-1,    270.8,        18.0,      79.8
+benchmarks/openstacks,benchmarks/openstacks/p02.pddl,FF, 0,    202.3,        18.1,     108.7
+benchmarks/openstacks,benchmarks/openstacks/p02.pddl,PPsaFF-glcl,-1,    268.9,        17.9,     297.9
+benchmarks/openstacks,benchmarks/openstacks/p02.pddl,PPsaFF-sync,-1,    244.6,        17.8,      79.6
+benchmarks/openstacks,benchmarks/openstacks/p03.pddl,FF, 0,    206.1,        18.5,     111.0
+benchmarks/openstacks,benchmarks/openstacks/p03.pddl,PPsaFF-glcl,-1,    264.9,        18.5,     263.8
+benchmarks/openstacks,benchmarks/openstacks/p03.pddl,PPsaFF-sync,-1,    266.4,        18.2,     177.1
+benchmarks/openstacks,benchmarks/openstacks/p04.pddl,FF, 0,    809.1,        38.4,    9107.4
+benchmarks/openstacks,benchmarks/openstacks/p04.pddl,PPsaFF-glcl,-1,    672.5,        36.5,     730.4
+benchmarks/openstacks,benchmarks/openstacks/p04.pddl,PPsaFF-sync,-1,    700.5,        37.0,     183.8
+benchmarks/openstacks,benchmarks/openstacks/p05.pddl,FF, 0,    873.7,        38.8,   11483.9
+benchmarks/openstacks,benchmarks/openstacks/p05.pddl,PPsaFF-glcl,-1,    670.4,        36.3,     774.1
+benchmarks/openstacks,benchmarks/openstacks/p05.pddl,PPsaFF-sync,-1,    696.9,        37.0,     183.0
+benchmarks/openstacks,benchmarks/openstacks/p06.pddl,FF, 0,    825.2,        39.3,    9240.2
+benchmarks/openstacks,benchmarks/openstacks/p06.pddl,PPsaFF-glcl,-1,    673.5,        37.0,     756.2
+benchmarks/openstacks,benchmarks/openstacks/p06.pddl,PPsaFF-sync,-1,    688.6,        37.0,     183.2
+benchmarks/openstacks,benchmarks/openstacks/p07.pddl,FF, 0, 906607.0,        60.0,17194911.0
+benchmarks/openstacks,benchmarks/openstacks/p07.pddl,PPsaFF-glcl,-1, 185335.6,        56.8, 2435000.1
+benchmarks/openstacks,benchmarks/openstacks/p07.pddl,PPsaFF-sync,-1, 177878.2,        57.5, 1599430.1
+benchmarks/openstacks,benchmarks/openstacks/p08.pddl,FF, 0,1051826.0,        60.0,19646420.0
+benchmarks/openstacks,benchmarks/openstacks/p08.pddl,PPsaFF-glcl,-1,  31056.8,        54.7,  426674.6
+benchmarks/openstacks,benchmarks/openstacks/p08.pddl,PPsaFF-sync,-1,  41926.0,        56.5,  424830.4
+benchmarks/openstacks,benchmarks/openstacks/p09.pddl,FF, 0, 988995.2,        60.0,18807051.0
+benchmarks/openstacks,benchmarks/openstacks/p09.pddl,PPsaFF-glcl,-1,  32937.8,        54.9,  463181.6
+benchmarks/openstacks,benchmarks/openstacks/p09.pddl,PPsaFF-sync,-1, 124867.3,        57.1, 1200256.5
+benchmarks/openstacks,benchmarks/openstacks/p10.pddl,PPsaFF-glcl,-1,   5874.8,        74.8,   47619.0
+benchmarks/openstacks,benchmarks/openstacks/p10.pddl,PPsaFF-sync,-1,  42797.4,        74.6,  275816.2
+benchmarks/openstacks,benchmarks/openstacks/p11.pddl,PPsaFF-glcl,-1,   1435.3,        77.7,    2705.0
+benchmarks/openstacks,benchmarks/openstacks/p11.pddl,PPsaFF-sync,-1,   8824.8,        73.6,   52119.0
+benchmarks/openstacks,benchmarks/openstacks/p12.pddl,PPsaFF-glcl,-1, 352404.0,        78.0, 3147513.3
+benchmarks/openstacks,benchmarks/openstacks/p12.pddl,PPsaFF-sync,-1,  57191.4,        76.7,  370838.3
+benchmarks/openstacks,benchmarks/openstacks/p13.pddl,FF, 0,   2258.0,       111.5,    2610.4
+benchmarks/openstacks,benchmarks/openstacks/p13.pddl,PPsaFF-glcl,-1,   3152.5,       109.9,    4340.9
+benchmarks/openstacks,benchmarks/openstacks/p13.pddl,PPsaFF-sync,-1,   2935.0,       113.0,    2006.0
+benchmarks/openstacks,benchmarks/openstacks/p14.pddl,FF, 0,   2193.2,       112.8,    2327.0
+benchmarks/openstacks,benchmarks/openstacks/p14.pddl,PPsaFF-glcl,-1,   3411.5,       108.2,    5375.6
+benchmarks/openstacks,benchmarks/openstacks/p14.pddl,PPsaFF-sync,-1,   3244.0,       110.5,    2372.5
+benchmarks/openstacks,benchmarks/openstacks/p15.pddl,FF, 0,   2216.2,       106.8,    2453.2
+benchmarks/openstacks,benchmarks/openstacks/p15.pddl,PPsaFF-glcl,-1,   7254.0,       108.3,   24554.0
+benchmarks/openstacks,benchmarks/openstacks/p16.pddl,FF, 0,  10648.5,       144.0,   20288.0
+benchmarks/openstacks,benchmarks/openstacks/p16.pddl,PPsaFF-glcl,-1,   8520.8,       150.4,    9941.6
+benchmarks/openstacks,benchmarks/openstacks/p16.pddl,PPsaFF-sync,-1,  16773.2,       149.8,   21164.4
+benchmarks/openstacks,benchmarks/openstacks/p17.pddl,FF, 0,   5642.9,       145.6,    7601.0
+benchmarks/openstacks,benchmarks/openstacks/p17.pddl,PPsaFF-glcl,-1,   6637.8,       148.8,    6966.0
+benchmarks/openstacks,benchmarks/openstacks/p17.pddl,PPsaFF-sync,-1,  27007.0,       150.0,   37826.3
+benchmarks/openstacks,benchmarks/openstacks/p18.pddl,FF, 0,  12705.8,       147.9,   24879.2
+benchmarks/openstacks,benchmarks/openstacks/p18.pddl,PPsaFF-glcl,-1,  19139.6,       152.1,   33970.9
+benchmarks/openstacks,benchmarks/openstacks/p18.pddl,PPsaFF-sync,-1,  92565.9,       147.3,  190686.1
+benchmarks/openstacks,benchmarks/openstacks/p19.pddl,FF, 0,  10467.2,       193.8,   11087.0
+benchmarks/openstacks,benchmarks/openstacks/p19.pddl,PPsaFF-glcl,-1,  24728.5,       187.5,   25573.5
+benchmarks/openstacks,benchmarks/openstacks/p19.pddl,PPsaFF-sync,-1, 112501.3,       188.3,   64422.3
+benchmarks/openstacks,benchmarks/openstacks/p20.pddl,FF, 0,  18582.0,       186.0,   25546.0
+benchmarks/openstacks,benchmarks/openstacks/p20.pddl,PPsaFF-glcl,-1,  21236.0,       183.3,   18825.0
+benchmarks/openstacks,benchmarks/openstacks/p20.pddl,PPsaFF-sync,-1, 426967.5,       186.0,  373616.2
+benchmarks/openstacks,benchmarks/openstacks/p21.pddl,FF, 0,  14357.0,       190.0,   17274.8
+benchmarks/openstacks,benchmarks/openstacks/p21.pddl,PPsaFF-glcl,-1,  23888.4,       188.5,   23026.5
+benchmarks/openstacks,benchmarks/openstacks/p21.pddl,PPsaFF-sync,-1,  28560.0,       188.7,   20337.3
+benchmarks/openstacks,benchmarks/openstacks/p22.pddl,FF, 0,  78562.2,       219.0,   72626.5
+benchmarks/openstacks,benchmarks/openstacks/p22.pddl,PPsaFF-glcl,-1,  30116.3,       225.5,   14606.7
+benchmarks/openstacks,benchmarks/openstacks/p22.pddl,PPsaFF-sync,-1,  23802.0,       220.0,    6179.0
+benchmarks/openstacks,benchmarks/openstacks/p23.pddl,FF, 0,  67568.0,       207.0,   64227.0
+benchmarks/openstacks,benchmarks/openstacks/p23.pddl,PPsaFF-glcl,-1,  41779.1,       227.9,   22691.9
+benchmarks/openstacks,benchmarks/openstacks/p23.pddl,PPsaFF-sync,-1, 202435.0,       237.0,   83872.0
+benchmarks/openstacks,benchmarks/openstacks/p24.pddl,FF, 0,  64304.7,       225.0,   48792.7
+benchmarks/openstacks,benchmarks/openstacks/p24.pddl,PPsaFF-glcl,-1,  35686.0,       224.0,   13973.0
+benchmarks/openstacks,benchmarks/openstacks/p24.pddl,PPsaFF-sync,-1,  22727.3,       222.3,    4930.0
+benchmarks/openstacks,benchmarks/openstacks/p25.pddl,FF, 0, 497645.3, 715828087.0,  300110.7
+benchmarks/openstacks,benchmarks/openstacks/p25.pddl,PPsaFF-glcl,-1, 559165.7,       282.3,  185724.7
+benchmarks/openstacks,benchmarks/openstacks/p25.pddl,PPsaFF-sync,-1, 102997.5,       302.5,   17620.5
+benchmarks/openstacks,benchmarks/openstacks/p26.pddl,FF, 0, 286000.7, 715828090.7,  238881.7
+benchmarks/openstacks,benchmarks/openstacks/p26.pddl,PPsaFF-glcl,-1, 249102.6,       291.4,   74554.6
+benchmarks/openstacks,benchmarks/openstacks/p27.pddl,FF, 0, 607040.5,       298.0,  230363.5
+benchmarks/openstacks,benchmarks/openstacks/p27.pddl,PPsaFF-glcl,-1, 230943.0,       285.3,   66419.3
+benchmarks/openstacks,benchmarks/openstacks/p27.pddl,PPsaFF-sync,-1, 137319.0,       305.0,   22287.0
+benchmarks/openstacks,benchmarks/openstacks/p28.pddl,PPsaFF-glcl,-1, 743815.5,       371.0,  120443.0
+benchmarks/openstacks,benchmarks/openstacks/p29.pddl,FF, 0,1070836.0,       393.0,  183003.0
+benchmarks/openstacks,benchmarks/openstacks/p29.pddl,PPsaFF-sync,-1, 746047.0,       383.0,   68088.5
+benchmarks/openstacks,benchmarks/openstacks/p30.pddl,PPsaFF-glcl,-1, 746887.0,       367.0,  113215.7
+benchmarks/openstacks,benchmarks/openstacks/p30.pddl,PPsaFF-sync,-1, 719345.0,       373.0,   68802.0
+benchmarks/rovers,benchmarks/rovers/p01.pddl,FF, 0,    168.2,        12.0,      30.0
+benchmarks/rovers,benchmarks/rovers/p01.pddl,PPsaFF-glcl,-1,    183.8,        12.0,      30.0
+benchmarks/rovers,benchmarks/rovers/p01.pddl,PPsaFF-sync,-1,    210.5,        12.0,      30.0
+benchmarks/rovers,benchmarks/rovers/p02.pddl,FF, 0,    146.6,        11.0,      26.0
+benchmarks/rovers,benchmarks/rovers/p02.pddl,PPsaFF-glcl,-1,    156.9,        11.0,      26.0
+benchmarks/rovers,benchmarks/rovers/p02.pddl,PPsaFF-sync,-1,    152.7,        11.0,      26.0
+benchmarks/rovers,benchmarks/rovers/p03.pddl,FF, 0,    184.4,        17.1,     120.5
+benchmarks/rovers,benchmarks/rovers/p03.pddl,PPsaFF-glcl,-1,    209.8,        14.8,     148.3
+benchmarks/rovers,benchmarks/rovers/p03.pddl,PPsaFF-sync,-1,    200.9,        15.2,      54.0
+benchmarks/rovers,benchmarks/rovers/p04.pddl,FF, 0,    171.9,         9.6,      46.1
+benchmarks/rovers,benchmarks/rovers/p04.pddl,PPsaFF-glcl,-1,    196.1,        10.7,      48.2
+benchmarks/rovers,benchmarks/rovers/p04.pddl,PPsaFF-sync,-1,    186.8,        11.0,      37.5
+benchmarks/rovers,benchmarks/rovers/p05.pddl,FF, 0,    265.8,        24.8,     107.1
+benchmarks/rovers,benchmarks/rovers/p05.pddl,PPsaFF-glcl,-1,    457.3,        23.6,     351.9
+benchmarks/rovers,benchmarks/rovers/p05.pddl,PPsaFF-sync,-1,    370.0,        24.0,     127.5
+benchmarks/rovers,benchmarks/rovers/p06.pddl,FF, 0,    523.6,        42.9,    1644.6
+benchmarks/rovers,benchmarks/rovers/p06.pddl,PPsaFF-glcl,-1,    663.2,        41.9,     546.7
+benchmarks/rovers,benchmarks/rovers/p06.pddl,PPsaFF-sync,-1,    604.3,        41.4,     215.9
+benchmarks/rovers,benchmarks/rovers/p07.pddl,FF, 0,    329.7,        27.1,     368.6
+benchmarks/rovers,benchmarks/rovers/p07.pddl,PPsaFF-glcl,-1,    591.4,        25.2,    1007.5
+benchmarks/rovers,benchmarks/rovers/p07.pddl,PPsaFF-sync,-1,    562.6,        24.8,     312.3
+benchmarks/rovers,benchmarks/rovers/p08.pddl,FF, 0,    550.5,        39.4,     497.9
+benchmarks/rovers,benchmarks/rovers/p08.pddl,PPsaFF-glcl,-1,    777.4,        36.4,     993.1
+benchmarks/rovers,benchmarks/rovers/p08.pddl,PPsaFF-sync,-1,    766.5,        41.6,     758.5
+benchmarks/rovers,benchmarks/rovers/p09.pddl,FF, 0,    697.9,        43.5,     836.1
+benchmarks/rovers,benchmarks/rovers/p09.pddl,PPsaFF-glcl,-1,    879.5,        39.3,    2237.2
+benchmarks/rovers,benchmarks/rovers/p09.pddl,PPsaFF-sync,-1,    810.3,        42.0,     874.9
+benchmarks/rovers,benchmarks/rovers/p10.pddl,FF, 0,    729.6,        46.9,     698.9
+benchmarks/rovers,benchmarks/rovers/p10.pddl,PPsaFF-glcl,-1,    773.1,        47.6,    1282.3
+benchmarks/rovers,benchmarks/rovers/p10.pddl,PPsaFF-sync,-1,    933.7,        46.3,     876.9
+benchmarks/rovers,benchmarks/rovers/p11.pddl,FF, 0,    706.0,        44.7,     659.9
+benchmarks/rovers,benchmarks/rovers/p11.pddl,PPsaFF-glcl,-1,    792.2,        40.6,    2194.0
+benchmarks/rovers,benchmarks/rovers/p11.pddl,PPsaFF-sync,-1,    895.7,        43.0,     564.1
+benchmarks/rovers,benchmarks/rovers/p12.pddl,FF, 0,    571.4,        28.5,     371.4
+benchmarks/rovers,benchmarks/rovers/p12.pddl,PPsaFF-glcl,-1,    715.5,        32.5,     631.9
+benchmarks/rovers,benchmarks/rovers/p12.pddl,PPsaFF-sync,-1,    736.1,        29.3,     452.7
+benchmarks/rovers,benchmarks/rovers/p13.pddl,FF, 0,    870.3,        60.7,    1503.8
+benchmarks/rovers,benchmarks/rovers/p13.pddl,PPsaFF-glcl,-1,   1198.7,        58.6,    3540.6
+benchmarks/rovers,benchmarks/rovers/p13.pddl,PPsaFF-sync,-1,   1093.1,        57.1,    1297.8
+benchmarks/rovers,benchmarks/rovers/p14.pddl,FF, 0,    817.5,        55.7,    1513.2
+benchmarks/rovers,benchmarks/rovers/p14.pddl,PPsaFF-glcl,-1,   1025.6,        40.5,    6713.9
+benchmarks/rovers,benchmarks/rovers/p14.pddl,PPsaFF-sync,-1,   1015.7,        42.7,     961.9
+benchmarks/rovers,benchmarks/rovers/p15.pddl,FF, 0,    988.5,        58.1,    1168.4
+benchmarks/rovers,benchmarks/rovers/p15.pddl,PPsaFF-glcl,-1,   1120.7,        54.3,    3063.0
+benchmarks/rovers,benchmarks/rovers/p15.pddl,PPsaFF-sync,-1,   1252.1,        59.2,    1343.3
+benchmarks/rovers,benchmarks/rovers/p16.pddl,FF, 0,    911.2,        65.4,    1629.8
+benchmarks/rovers,benchmarks/rovers/p16.pddl,PPsaFF-glcl,-1,   1068.4,        57.3,    3263.0
+benchmarks/rovers,benchmarks/rovers/p16.pddl,PPsaFF-sync,-1,   1208.5,        64.0,    1743.3
+benchmarks/rovers,benchmarks/rovers/p17.pddl,FF, 0,   1550.3,        74.5,    3601.2
+benchmarks/rovers,benchmarks/rovers/p17.pddl,PPsaFF-glcl,-1,   1778.0,        80.6,    7226.3
+benchmarks/rovers,benchmarks/rovers/p17.pddl,PPsaFF-sync,-1,   1971.2,        68.3,    2760.2
+benchmarks/rovers,benchmarks/rovers/p18.pddl,FF, 0,   2752.2,        85.1,   14060.3
+benchmarks/rovers,benchmarks/rovers/p18.pddl,PPsaFF-glcl,-1,   3205.2,        74.0,   19755.2
+benchmarks/rovers,benchmarks/rovers/p18.pddl,PPsaFF-sync,-1,   3330.4,        79.0,    6724.2
+benchmarks/rovers,benchmarks/rovers/p19.pddl,FF, 0,   4318.4,       129.5,   10873.9
+benchmarks/rovers,benchmarks/rovers/p19.pddl,PPsaFF-glcl,-1,   5654.6,       111.5,   47145.6
+benchmarks/rovers,benchmarks/rovers/p19.pddl,PPsaFF-sync,-1,   5317.9,       105.8,    9819.5
+benchmarks/rovers,benchmarks/rovers/p20.pddl,FF, 0,   6644.8,       129.6,    8424.5
+benchmarks/rovers,benchmarks/rovers/p20.pddl,PPsaFF-glcl,-1,   7146.8,       129.3,   12454.3
+benchmarks/rovers,benchmarks/rovers/p20.pddl,PPsaFF-sync,-1,   7786.7,       122.1,    9081.2
+benchmarks/satellites,benchmarks/satellites/p01-pfile1.pddl,FF, 0,    153.4,        10.0,      25.0
+benchmarks/satellites,benchmarks/satellites/p01-pfile1.pddl,PPsaFF-glcl,-1,    212.7,        10.0,      25.0
+benchmarks/satellites,benchmarks/satellites/p01-pfile1.pddl,PPsaFF-sync,-1,    189.3,        10.0,      25.0
+benchmarks/satellites,benchmarks/satellites/p02-pfile2.pddl,FF, 0,    192.8,        30.0,     109.0
+benchmarks/satellites,benchmarks/satellites/p02-pfile2.pddl,PPsaFF-glcl,-1,    207.5,        30.0,     109.0
+benchmarks/satellites,benchmarks/satellites/p02-pfile2.pddl,PPsaFF-sync,-1,    201.3,        30.0,     109.0
+benchmarks/satellites,benchmarks/satellites/p03-pfile3.pddl,FF, 0,    364.0,        28.6,     557.0
+benchmarks/satellites,benchmarks/satellites/p03-pfile3.pddl,PPsaFF-glcl,-1,    442.9,        14.9,     378.0
+benchmarks/satellites,benchmarks/satellites/p03-pfile3.pddl,PPsaFF-sync,-1,    426.7,        14.1,     219.2
+benchmarks/satellites,benchmarks/satellites/p04-pfile4.pddl,FF, 0,    434.0,        26.1,     348.8
+benchmarks/satellites,benchmarks/satellites/p04-pfile4.pddl,PPsaFF-glcl,-1,    683.3,        25.8,     994.5
+benchmarks/satellites,benchmarks/satellites/p04-pfile4.pddl,PPsaFF-sync,-1,    693.2,        26.6,     440.4
+benchmarks/satellites,benchmarks/satellites/p05-pfile5.pddl,FF, 0,    791.8,        42.2,    1158.4
+benchmarks/satellites,benchmarks/satellites/p05-pfile5.pddl,PPsaFF-glcl,-1,    814.6,        24.8,    1551.1
+benchmarks/satellites,benchmarks/satellites/p05-pfile5.pddl,PPsaFF-sync,-1,    977.0,        42.8,    1305.9
+benchmarks/satellites,benchmarks/satellites/p06-pfile6.pddl,FF, 0,    655.1,        24.8,     512.7
+benchmarks/satellites,benchmarks/satellites/p06-pfile6.pddl,PPsaFF-glcl,-1,    775.7,        26.9,    1304.8
+benchmarks/satellites,benchmarks/satellites/p06-pfile6.pddl,PPsaFF-sync,-1,    759.8,        24.1,     509.9
+benchmarks/satellites,benchmarks/satellites/p07-pfile7.pddl,FF, 0,    906.5,        39.8,    1359.2
+benchmarks/satellites,benchmarks/satellites/p07-pfile7.pddl,PPsaFF-glcl,-1,   1010.3,        33.4,    2445.3
+benchmarks/satellites,benchmarks/satellites/p07-pfile7.pddl,PPsaFF-sync,-1,   1207.2,        45.8,    1978.2
+benchmarks/satellites,benchmarks/satellites/p08-pfile8.pddl,FF, 0,   1219.0,        69.3,    1762.1
+benchmarks/satellites,benchmarks/satellites/p08-pfile8.pddl,PPsaFF-glcl,-1,   1297.9,        35.6,    2692.5
+benchmarks/satellites,benchmarks/satellites/p08-pfile8.pddl,PPsaFF-sync,-1,   1482.6,        45.7,    2027.4
+benchmarks/satellites,benchmarks/satellites/p09-pfile9.pddl,FF, 0,   1608.6,        63.2,    4222.3
+benchmarks/satellites,benchmarks/satellites/p09-pfile9.pddl,PPsaFF-glcl,-1,   1722.9,        60.6,    4558.6
+benchmarks/satellites,benchmarks/satellites/p09-pfile9.pddl,PPsaFF-sync,-1,   2342.5,        87.8,    8890.8
+benchmarks/satellites,benchmarks/satellites/p10-pfile10.pddl,FF, 0,   1928.4,        64.9,    3086.3
+benchmarks/satellites,benchmarks/satellites/p10-pfile10.pddl,PPsaFF-glcl,-1,   2108.8,        56.5,    4309.2
+benchmarks/satellites,benchmarks/satellites/p10-pfile10.pddl,PPsaFF-sync,-1,   2586.9,        76.5,    5555.8
+benchmarks/satellites,benchmarks/satellites/p11-pfile11.pddl,FF, 0,   3036.3,       100.5,    7104.8
+benchmarks/satellites,benchmarks/satellites/p11-pfile11.pddl,PPsaFF-glcl,-1,   3097.8,        57.5,    7277.1
+benchmarks/satellites,benchmarks/satellites/p11-pfile11.pddl,PPsaFF-sync,-1,   4915.6,       118.9,   35338.2
+benchmarks/satellites,benchmarks/satellites/p12-pfile12.pddl,FF, 0,   4722.5,        80.6,    5260.3
+benchmarks/satellites,benchmarks/satellites/p12-pfile12.pddl,PPsaFF-glcl,-1,   5143.9,        61.1,    9944.8
+benchmarks/satellites,benchmarks/satellites/p12-pfile12.pddl,PPsaFF-sync,-1,   5569.6,        72.6,    8463.0
+benchmarks/satellites,benchmarks/satellites/p13-pfile13.pddl,FF, 0,   9510.6,        93.7,   38975.0
+benchmarks/satellites,benchmarks/satellites/p13-pfile13.pddl,PPsaFF-glcl,-1,  10009.2,       101.7,   54370.5
+benchmarks/satellites,benchmarks/satellites/p13-pfile13.pddl,PPsaFF-sync,-1,  11648.7,       184.5,   37281.5
+benchmarks/satellites,benchmarks/satellites/p14-pfile14.pddl,FF, 0,   6416.8,        76.3,    6585.8
+benchmarks/satellites,benchmarks/satellites/p14-pfile14.pddl,PPsaFF-glcl,-1,   6252.2,        64.8,    6095.4
+benchmarks/satellites,benchmarks/satellites/p14-pfile14.pddl,PPsaFF-sync,-1,   8274.7,       117.0,   27237.2
+benchmarks/satellites,benchmarks/satellites/p15-pfile15.pddl,FF, 0,  11014.0,       111.1,   22818.7
+benchmarks/satellites,benchmarks/satellites/p15-pfile15.pddl,PPsaFF-glcl,-1,  11149.0,       125.2,   21106.1
+benchmarks/satellites,benchmarks/satellites/p15-pfile15.pddl,PPsaFF-sync,-1,  15971.9,       174.9,   70534.1
+benchmarks/satellites,benchmarks/satellites/p16-pfile16.pddl,FF, 0,  16147.0,       101.4,   17990.0
+benchmarks/satellites,benchmarks/satellites/p16-pfile16.pddl,PPsaFF-glcl,-1,  15929.8,        81.0,   17153.5
+benchmarks/satellites,benchmarks/satellites/p16-pfile16.pddl,PPsaFF-sync,-1,  17493.1,       100.9,   24727.7
+benchmarks/satellites,benchmarks/satellites/p17-pfile17.pddl,FF, 0,  21523.4,       100.7,   14847.6
+benchmarks/satellites,benchmarks/satellites/p17-pfile17.pddl,PPsaFF-glcl,-1,  21058.7,        74.9,   13063.9
+benchmarks/satellites,benchmarks/satellites/p17-pfile17.pddl,PPsaFF-sync,-1,  23779.0,        99.1,   19190.3
+benchmarks/satellites,benchmarks/satellites/p18-pfile18.pddl,FF, 0,   4755.9,       117.6,    5538.3
+benchmarks/satellites,benchmarks/satellites/p18-pfile18.pddl,PPsaFF-glcl,-1,   5100.2,        63.9,    9938.0
+benchmarks/satellites,benchmarks/satellites/p18-pfile18.pddl,PPsaFF-sync,-1,   5640.8,        74.8,   11351.5
+benchmarks/satellites,benchmarks/satellites/p19-pfile19.pddl,FF, 0,   5623.6,       237.9,   17917.0
+benchmarks/satellites,benchmarks/satellites/p19-pfile19.pddl,PPsaFF-glcl,-1,   6118.7,       150.8,   20803.1
+benchmarks/satellites,benchmarks/satellites/p19-pfile19.pddl,PPsaFF-sync,-1,   8672.2,       244.8,   33992.3
+benchmarks/satellites,benchmarks/satellites/p20-pfile20.pddl,FF, 0,   6075.8,       214.3,   19672.6
+benchmarks/satellites,benchmarks/satellites/p20-pfile20.pddl,PPsaFF-glcl,-1,   7314.1,       144.3,   31742.7
+benchmarks/satellites,benchmarks/satellites/p20-pfile20.pddl,PPsaFF-sync,-1,  12661.6,       256.3,   58038.7
+benchmarks/woodworking08,benchmarks/woodworking08/p01.pddl,FF, 0,    624.4,         6.5,     238.9
+benchmarks/woodworking08,benchmarks/woodworking08/p01.pddl,PPsaFF-glcl,-1,    694.8,         6.4,     216.2
+benchmarks/woodworking08,benchmarks/woodworking08/p01.pddl,PPsaFF-sync,-1,    714.5,         6.7,     101.3
+benchmarks/woodworking08,benchmarks/woodworking08/p02.pddl,FF, 0,   1903.8,        15.0,   12166.6
+benchmarks/woodworking08,benchmarks/woodworking08/p02.pddl,PPsaFF-glcl,-1,   1630.0,        16.0,    3277.5
+benchmarks/woodworking08,benchmarks/woodworking08/p02.pddl,PPsaFF-sync,-1,   1536.2,        16.7,     637.8
+benchmarks/woodworking08,benchmarks/woodworking08/p03.pddl,FF, 0,  39569.5,        28.2,  233440.5
+benchmarks/woodworking08,benchmarks/woodworking08/p03.pddl,PPsaFF-glcl,-1,  34463.2, 536870933.2,  692686.8
+benchmarks/woodworking08,benchmarks/woodworking08/p04.pddl,PPsaFF-glcl,-1,  32630.0,1073741851.0, 1030864.0
+benchmarks/woodworking08,benchmarks/woodworking08/p07.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  219053.6
+benchmarks/woodworking08,benchmarks/woodworking08/p07.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0,  249706.0
+benchmarks/woodworking08,benchmarks/woodworking08/p08.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  315240.0
+benchmarks/woodworking08,benchmarks/woodworking08/p08.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0,  211019.0
+benchmarks/woodworking08,benchmarks/woodworking08/p09.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  104411.9
+benchmarks/woodworking08,benchmarks/woodworking08/p09.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0,   83257.0
+benchmarks/woodworking08,benchmarks/woodworking08/p10.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0,   70426.0
+benchmarks/woodworking08,benchmarks/woodworking08/p11.pddl,FF, 0,    469.9,         5.1,      63.1
+benchmarks/woodworking08,benchmarks/woodworking08/p11.pddl,PPsaFF-glcl,-1,    650.6,         5.0,     152.5
+benchmarks/woodworking08,benchmarks/woodworking08/p11.pddl,PPsaFF-sync,-1,    637.5,         5.0,      38.7
+benchmarks/woodworking08,benchmarks/woodworking08/p12.pddl,FF, 0,   2061.0,        15.4,   12076.8
+benchmarks/woodworking08,benchmarks/woodworking08/p12.pddl,PPsaFF-glcl,-1,  60852.6,        23.0, 1565484.8
+benchmarks/woodworking08,benchmarks/woodworking08/p13.pddl,FF, 0,  19907.5,        30.0,   98714.5
+benchmarks/woodworking08,benchmarks/woodworking08/p13.pddl,PPsaFF-glcl,-1,   5676.8,1073741839.2, 1394424.2
+benchmarks/woodworking08,benchmarks/woodworking08/p14.pddl,FF, 0, 156182.0,        34.6,  375779.7
+benchmarks/woodworking08,benchmarks/woodworking08/p14.pddl,PPsaFF-glcl,-1,  44865.0,        30.0,   91303.0
+benchmarks/woodworking08,benchmarks/woodworking08/p15.pddl,FF, 0, 257452.0,1073741851.5, 1380094.5
+benchmarks/woodworking08,benchmarks/woodworking08/p16.pddl,FF, 0,     -1.0,2147483647.0, 1156898.0
+benchmarks/woodworking08,benchmarks/woodworking08/p16.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  950515.0
+benchmarks/woodworking08,benchmarks/woodworking08/p17.pddl,PPsaFF-glcl,-1, 346753.0,1431655788.0,  738763.3
+benchmarks/woodworking08,benchmarks/woodworking08/p18.pddl,FF, 0,     -1.0,2147483647.0,  309340.0
+benchmarks/woodworking08,benchmarks/woodworking08/p18.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  403024.6
+benchmarks/woodworking08,benchmarks/woodworking08/p19.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  433951.0
+benchmarks/woodworking08,benchmarks/woodworking08/p20.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  176596.0
+benchmarks/woodworking08,benchmarks/woodworking08/p20.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0,   79440.0
+benchmarks/woodworking08,benchmarks/woodworking08/p21.pddl,FF, 0,    732.1,        10.9,    3050.0
+benchmarks/woodworking08,benchmarks/woodworking08/p21.pddl,PPsaFF-glcl,-1,    667.6,         9.4,     278.1
+benchmarks/woodworking08,benchmarks/woodworking08/p21.pddl,PPsaFF-sync,-1,    899.7,        12.7,     886.8
+benchmarks/woodworking08,benchmarks/woodworking08/p22.pddl,FF, 0,   2302.0,        13.3,    5206.4
+benchmarks/woodworking08,benchmarks/woodworking08/p22.pddl,PPsaFF-glcl,-1,   2175.6,        14.1,    1733.7
+benchmarks/woodworking08,benchmarks/woodworking08/p22.pddl,PPsaFF-sync,-1,   2160.8,        14.4,     319.6
+benchmarks/woodworking08,benchmarks/woodworking08/p23.pddl,FF, 0,  26100.4,        25.0,  221416.1
+benchmarks/woodworking08,benchmarks/woodworking08/p23.pddl,PPsaFF-glcl,-1,   6838.6,        25.5,   45782.0
+benchmarks/woodworking08,benchmarks/woodworking08/p23.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0, 2497164.0
+benchmarks/woodworking08,benchmarks/woodworking08/p24.pddl,FF, 0, 350751.0,        43.0,  955932.0
+benchmarks/woodworking08,benchmarks/woodworking08/p24.pddl,PPsaFF-glcl,-1, 123045.2,        38.0,  373911.8
+benchmarks/woodworking08,benchmarks/woodworking08/p25.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0, 1374411.0
+benchmarks/woodworking08,benchmarks/woodworking08/p26.pddl,FF, 0,     -1.0,2147483647.0, 1265157.0
+benchmarks/woodworking08,benchmarks/woodworking08/p26.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  958291.0
+benchmarks/woodworking08,benchmarks/woodworking08/p27.pddl,FF, 0,     -1.0,2147483647.0,  718821.0
+benchmarks/woodworking08,benchmarks/woodworking08/p27.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  668191.5
+benchmarks/woodworking08,benchmarks/woodworking08/p28.pddl,FF, 0,     -1.0,2147483647.0,  392894.5
+benchmarks/woodworking08,benchmarks/woodworking08/p28.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  292041.7
+benchmarks/woodworking08,benchmarks/woodworking08/p29.pddl,FF, 0,     -1.0,2147483647.0,  242951.0
+benchmarks/woodworking08,benchmarks/woodworking08/p29.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  303922.8
+benchmarks/woodworking08,benchmarks/woodworking08/p30.pddl,PPsaFF-glcl,-1,     -1.0,2147483647.0,  276497.0
+benchmarks/woodworking08,benchmarks/woodworking08/p30.pddl,PPsaFF-sync,-1,     -1.0,2147483647.0,   81588.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile10.pddl,FF, 0,   1727.0,        41.5,    1929.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile10.pddl,PPsaFF-glcl,-1,   1995.6,        43.0,    3411.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile10.pddl,PPsaFF-sync,-1,   3192.5,        92.6,   13376.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile12.pddl,FF, 0,   2228.1,        41.9,    1231.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile12.pddl,PPsaFF-glcl,-1,   2536.5,        35.3,    2339.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile12.pddl,PPsaFF-sync,-1,   3028.6,        71.0,    5397.1
+benchmarks/zenotravel,benchmarks/zenotravel/pfile13.pddl,FF, 0,   2287.5,        52.8,    3051.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile13.pddl,PPsaFF-glcl,-1,   2657.1,        51.1,    4379.1
+benchmarks/zenotravel,benchmarks/zenotravel/pfile13.pddl,PPsaFF-sync,-1,   4071.3,        92.3,   16147.4
+benchmarks/zenotravel,benchmarks/zenotravel/pfile14.pddl,FF, 0,  24437.8,        54.1,    7105.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile14.pddl,PPsaFF-glcl,-1,  25174.2,        59.1,   10124.5
+benchmarks/zenotravel,benchmarks/zenotravel/pfile14.pddl,PPsaFF-sync,-1, 360503.0,       228.0, 1924676.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile15.pddl,FF, 0,  46561.3,        89.7,    7093.7
+benchmarks/zenotravel,benchmarks/zenotravel/pfile15.pddl,PPsaFF-glcl,-1,  49429.2,        68.1,    8384.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile15.pddl,PPsaFF-sync,-1,  76767.3,       154.7,  139550.4
+benchmarks/zenotravel,benchmarks/zenotravel/pfile16.pddl,FF, 0,  83839.4,        75.7,   13793.4
+benchmarks/zenotravel,benchmarks/zenotravel/pfile16.pddl,PPsaFF-glcl,-1,  89135.3,        79.6,   18067.7
+benchmarks/zenotravel,benchmarks/zenotravel/pfile16.pddl,PPsaFF-sync,-1, 165460.6,       224.2,  283759.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile17.pddl,FF, 0, 152432.1,       110.6,   35822.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile17.pddl,PPsaFF-glcl,-1, 159863.7,       107.3,   22857.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile17.pddl,PPsaFF-sync,-1, 658307.8,       316.5,  881160.5
+benchmarks/zenotravel,benchmarks/zenotravel/pfile18.pddl,FF, 0, 226320.6,       114.7,   17179.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile18.pddl,PPsaFF-glcl,-1, 240946.2,       109.2,   16235.9
+benchmarks/zenotravel,benchmarks/zenotravel/pfile18.pddl,PPsaFF-sync,-1, 379464.0,       249.8,  256993.4
+benchmarks/zenotravel,benchmarks/zenotravel/pfile19.pddl,FF, 0, 353887.6,       134.4,   40611.9
+benchmarks/zenotravel,benchmarks/zenotravel/pfile19.pddl,PPsaFF-glcl,-1, 368688.6,       137.0,   35223.4
+benchmarks/zenotravel,benchmarks/zenotravel/pfile19.pddl,PPsaFF-sync,-1, 697573.3,       356.8,  339189.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile1.pddl,FF, 0,    202.2,         1.0,       4.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile1.pddl,PPsaFF-glcl,-1,    214.0,         1.0,       4.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile1.pddl,PPsaFF-sync,-1,    222.9,         1.0,       4.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile20.pddl,FF, 0, 486369.3,       223.5,   21964.7
+benchmarks/zenotravel,benchmarks/zenotravel/pfile20.pddl,PPsaFF-glcl,-1, 540365.1,       164.1,   26000.8
+benchmarks/zenotravel,benchmarks/zenotravel/pfile20.pddl,PPsaFF-sync,-1, 649670.0,       335.7,  145157.4
+benchmarks/zenotravel,benchmarks/zenotravel/pfile2.pddl,FF, 0,    183.3,         9.0,      28.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile2.pddl,PPsaFF-glcl,-1,    204.2,         9.0,      28.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile2.pddl,PPsaFF-sync,-1,    193.3,         9.0,      28.0
+benchmarks/zenotravel,benchmarks/zenotravel/pfile3.pddl,FF, 0,    491.2,        13.1,     344.9
+benchmarks/zenotravel,benchmarks/zenotravel/pfile3.pddl,PPsaFF-glcl,-1,    772.1,        12.0,     736.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile3.pddl,PPsaFF-sync,-1,    876.1,        18.5,     868.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile4.pddl,FF, 0,    481.3,        18.4,     498.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile4.pddl,PPsaFF-glcl,-1,    805.5,        15.6,     631.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile4.pddl,PPsaFF-sync,-1,   1166.5,        21.7,    1586.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile5.pddl,FF, 0,    649.3,        39.6,     309.7
+benchmarks/zenotravel,benchmarks/zenotravel/pfile5.pddl,PPsaFF-glcl,-1,    892.9,        25.6,    1140.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile5.pddl,PPsaFF-sync,-1,    887.8,        39.1,     636.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile6.pddl,FF, 0,    669.8,        28.4,     353.6
+benchmarks/zenotravel,benchmarks/zenotravel/pfile6.pddl,PPsaFF-glcl,-1,   1005.1,        25.9,    1529.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile6.pddl,PPsaFF-sync,-1,   1105.5,        42.3,    1587.9
+benchmarks/zenotravel,benchmarks/zenotravel/pfile7.pddl,FF, 0,    724.4,        29.9,     824.5
+benchmarks/zenotravel,benchmarks/zenotravel/pfile7.pddl,PPsaFF-glcl,-1,   1043.8,        33.1,    2240.1
+benchmarks/zenotravel,benchmarks/zenotravel/pfile7.pddl,PPsaFF-sync,-1,   1114.3,        46.1,    1718.2
+benchmarks/zenotravel,benchmarks/zenotravel/pfile8.pddl,FF, 0,   1383.0,        20.4,     558.8
+benchmarks/zenotravel,benchmarks/zenotravel/pfile8.pddl,PPsaFF-glcl,-1,   1516.3,        21.0,     918.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile8.pddl,PPsaFF-sync,-1,   2429.4,        45.1,    8129.3
+benchmarks/zenotravel,benchmarks/zenotravel/pfile9.pddl,FF, 0,   1573.3,        45.9,     923.9
+benchmarks/zenotravel,benchmarks/zenotravel/pfile9.pddl,PPsaFF-glcl,-1,   1772.9,        32.3,    2140.8
+benchmarks/zenotravel,benchmarks/zenotravel/pfile9.pddl,PPsaFF-sync,-1,   2195.7,        63.3,    3331.5

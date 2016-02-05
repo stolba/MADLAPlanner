@@ -1,0 +1,11 @@
+domain.x,meanExpanded
+benchmarks/blocksworld, 6.44
+benchmarks/depot,11.08
+benchmarks/driverlog, 2.44
+benchmarks/elevators08,50.74
+benchmarks/logistics00,47.38
+benchmarks/openstacks,12.86
+benchmarks/rovers, 1.47
+benchmarks/satellites, 0.76
+benchmarks/woodworking08, 7.15
+benchmarks/zenotravel, 0.28
