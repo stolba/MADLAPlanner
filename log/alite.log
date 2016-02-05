@@ -1,0 +1,10 @@
+2016-02-05 03:12:58 [FATAL]: cz.agents.alite.creator.CreatorFactory - 
+java.lang.NumberFormatException: For input string: "add"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at cz.agents.madla.creator.SASCreator.init(SASCreator.java:98)
+	at cz.agents.alite.creator.CreatorFactory.createCreator(CreatorFactory.java:26)
+	at cz.agents.alite.Main.main(Main.java:18)
+2016-02-05 03:13:45 [FATAL]: cz.agents.madla.creator.SASCreator - SAS file output does not exist!
+2016-02-05 03:14:12 [WARN ]: cz.agents.dimaptools.search.DistributedBestFirstSearch -  by me (rover0) - 499
