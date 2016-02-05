@@ -1,6 +1,0 @@
-0: (do-grind grinder0 p0 smooth red varnished colourfragments)
-1: (do-saw-medium saw0 b0 p1 pine rough s3 s2 s1)
-2: (do-plane planer0 p1 rough natural untreated)
-3: (do-plane planer0 p2 verysmooth natural varnished)
-4: (do-spray-varnish spray-varnisher0 p2 red smooth)
-5: (do-spray-varnish spray-varnisher0 p1 natural smooth)

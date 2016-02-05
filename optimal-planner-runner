@@ -1,7 +1,0 @@
-#! /bin/bash
-cd ./symba-2
-./plan ../$1 ../$2 ../optimal.plan > ../optimal_planner.out
-
-cd ..
-
-cat optimal_planner.out | grep "Plan cost:" > optimal_plan.cost 

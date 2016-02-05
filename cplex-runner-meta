@@ -1,4 +1,0 @@
-#!/bin/bash
-
-rm problem.sol
-/software/cplex-126/cplex/bin/x86-64_linux/cplex < read_and_solve_cplex

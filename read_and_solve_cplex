@@ -1,4 +1,0 @@
-read problem.clp
-optimize
-write problem.sol
-y
