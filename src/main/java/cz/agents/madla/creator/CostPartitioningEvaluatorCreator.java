@@ -25,16 +25,12 @@ import cz.agents.alite.creator.Creator;
 import cz.agents.dimaptools.DIMAPWorldInterface;
 import cz.agents.dimaptools.DefaultDIMAPWorld;
 import cz.agents.dimaptools.communication.protocol.DefaultEncoder;
-import cz.agents.dimaptools.costpart.ApproximateOCPGenerator;
+import cz.agents.dimaptools.costpart.AdHocCPGenerator;
 import cz.agents.dimaptools.costpart.CPTest;
 import cz.agents.dimaptools.costpart.CostPartitioningGeneratorInterface;
-import cz.agents.dimaptools.costpart.FixedOptimalCPGenerator;
 import cz.agents.dimaptools.costpart.LPBasedCPInterface;
-import cz.agents.dimaptools.costpart.LPOCPGenerator;
-import cz.agents.dimaptools.costpart.ProjectionCompensatingCPGenerator;
 import cz.agents.dimaptools.costpart.SEQCostPartitioningGenerator;
 import cz.agents.dimaptools.costpart.SEQNegCostPartitioningGenerator;
-import cz.agents.dimaptools.costpart.UniformCPGenerator;
 import cz.agents.dimaptools.experiment.CPDataAccumulator;
 import cz.agents.dimaptools.experiment.Trace;
 import cz.agents.dimaptools.heuristic.MaximumHeuristic;
@@ -208,7 +204,7 @@ public class CostPartitioningEvaluatorCreator implements Creator {
         	prepareAndSolveLPs();
         }else if(solverID.equals("cplex-dist-neg")){ //uses solution of distributed LP to generate CP, generates general CP
         	prepareAndSolveLPsDist(true,false);
-        }else if(solverID.equals("exact-ocp")){  //solve exact ocp using occurences of actions in plans. WARNING: not a CP!
+        }/*else if(solverID.equals("exact-ocp")){  //solve exact ocp using occurences of actions in plans. WARNING: not a CP!
         	solveExactOCP();
         }else if(solverID.equals("exact-ocp-lp")){
         	solveExactOCPUsingLP(false,false);
@@ -218,7 +214,7 @@ public class CostPartitioningEvaluatorCreator implements Creator {
         	solveExactOCPUsingLP(false,true);
         }else if(solverID.equals("approx-ocp")){  //approximate exact ocp using occurences of actions in SEQ. WARNING: not a CP?
         	solveApproxOCP();
-        }else{
+        }*/else{
         	prepareCPDist(solverID); //no LP-solver used, "uniform" - uniform CP, "projcom" - projection compensating CP
         }
         
@@ -326,176 +322,176 @@ public class CostPartitioningEvaluatorCreator implements Creator {
 
     }
     
-    private void solveExactOCP() {
-        LOGGER.info(">>> SOLVE EXACT OCP");
-        
-//        OptimalCPGenerator cpgen = new OptimalCPGenerator();
-        FixedOptimalCPGenerator cpgen = new FixedOptimalCPGenerator();
-        CPTest test = new CPTest();
-        
-        for (final CostPartitioningAgent agent : agentSet) {
-        	
-        	LOGGER.info("> FIND optimal solution of projection for agent " + agent.agentName);
-            agent.plan("A*","hpot");
-            List<Action> plan = executor.getActionPlan();
-//            LOGGER.info("Optimal action plan:\n"+plan);
-            cpgen.setProblem(agent.agentName, agent.world.getProblem());
-            cpgen.addPlan(plan,agent.agentName);
-            test.addOriginalProblem(agent.world.getProblem());
-        	
-        }
-        
-        LOGGER.info(">>> PLAN USING EXACT OCP");
-        
-        float sum = 0;
-        
-        for (final CostPartitioningAgent agent : agentSet) {
-        	
-        	LOGGER.info("> apply cost-partitioning for agent " + agent.agentName);
-            
-        	cpgen.updateCosts(agent.world.getProblem());
-        	test.addCPProblem(agent.world.getProblem());
-        	
-        	LOGGER.info("> FIND optimal solution of cost-partitioned projection for agent " + agent.agentName);
-            agent.plan("A*","hpot");
-            
-        	System.out.println(agent.agentName + " optimal: " + agent.cost);
-        	sum += agent.cost;
-        	
-            CPDataAccumulator.getAccumulator().note += agent.agentName+":opt="+agent.cost+";";
-            
-        }
-
-        CPDataAccumulator.getAccumulator().sumOfLocalOptimums = sum;
-        
-        LOGGER.info(">>> TEST CP PROPERTY");
-        
-        boolean cp = test.testCP();
-        CPDataAccumulator.getAccumulator().isCP = cp;
-        
-        if(cp){
-        	LOGGER.info(">>> OK");
-        }else{
-        	LOGGER.info(">>> NOT A COST PARTITIONING!");
-        }
-
-    }
+//    private void solveExactOCP() {
+//        LOGGER.info(">>> SOLVE EXACT OCP");
+//        
+////        OptimalCPGenerator cpgen = new OptimalCPGenerator();
+//        FixedOptimalCPGenerator cpgen = new FixedOptimalCPGenerator();
+//        CPTest test = new CPTest();
+//        
+//        for (final CostPartitioningAgent agent : agentSet) {
+//        	
+//        	LOGGER.info("> FIND optimal solution of projection for agent " + agent.agentName);
+//            agent.plan("A*","hpot");
+//            List<Action> plan = executor.getActionPlan();
+////            LOGGER.info("Optimal action plan:\n"+plan);
+//            cpgen.setProblem(agent.agentName, agent.world.getProblem());
+//            cpgen.addPlan(plan,agent.agentName);
+//            test.addOriginalProblem(agent.world.getProblem());
+//        	
+//        }
+//        
+//        LOGGER.info(">>> PLAN USING EXACT OCP");
+//        
+//        float sum = 0;
+//        
+//        for (final CostPartitioningAgent agent : agentSet) {
+//        	
+//        	LOGGER.info("> apply cost-partitioning for agent " + agent.agentName);
+//            
+//        	cpgen.updateCosts(agent.world.getProblem());
+//        	test.addCPProblem(agent.world.getProblem());
+//        	
+//        	LOGGER.info("> FIND optimal solution of cost-partitioned projection for agent " + agent.agentName);
+//            agent.plan("A*","hpot");
+//            
+//        	System.out.println(agent.agentName + " optimal: " + agent.cost);
+//        	sum += agent.cost;
+//        	
+//            CPDataAccumulator.getAccumulator().note += agent.agentName+":opt="+agent.cost+";";
+//            
+//        }
+//
+//        CPDataAccumulator.getAccumulator().sumOfLocalOptimums = sum;
+//        
+//        LOGGER.info(">>> TEST CP PROPERTY");
+//        
+//        boolean cp = test.testCP();
+//        CPDataAccumulator.getAccumulator().isCP = cp;
+//        
+//        if(cp){
+//        	LOGGER.info(">>> OK");
+//        }else{
+//        	LOGGER.info(">>> NOT A COST PARTITIONING!");
+//        }
+//
+//    }
     
-    private void solveExactOCPUsingLP(boolean findAllOptimalPlans,boolean findAllPlans) {
-        LOGGER.info(">>> SOLVE EXACT OCP USING LP");
-        
-        LPOCPGenerator cpgen = new LPOCPGenerator(solver);
-        CPTest test = new CPTest();
-        
-        for (final CostPartitioningAgent agent : agentSet) {
-        	
-        	LOGGER.info("> FIND optimal solution of projection for agent " + agent.agentName);
-        	if(findAllPlans){
-        		agent.plan("ES","none",!findAllPlans);
-        	}else{
-        		agent.plan("A*","hpot",!findAllOptimalPlans);
-        	}
-            cpgen.setProblem(agent.agentName, agent.world.getProblem());
-            
-            for(List<Action> plan : agent.plans){
-            	cpgen.addPlan(plan,agent.agentName);
-            }
-            
-        	test.addOriginalProblem(agent.world.getProblem());
-        }
-        
-        LOGGER.info(">>> SOLVE EXACT OCP LP");
-        
-        cpgen.solveOCPLP();
-        CPDataAccumulator.getAccumulator().globalEstimate = cpgen.getSolution().getObjctiveValue();
-        
-        LOGGER.info(">>> PLAN USING EXACT OCP");
-        
-        float sum = 0;
-        
-        for (final CostPartitioningAgent agent : agentSet) {
-        	
-        	LOGGER.info("> apply cost-partitioning for agent " + agent.agentName);
-            
-        	cpgen.updateCosts(agent.world.getProblem());
-        	test.addCPProblem(agent.world.getProblem());
-        	
-        	LOGGER.info("> FIND optimal solution of cost-partitioned projection for agent " + agent.agentName);
-            agent.plan("ES","none");
-            
-            LOGGER.info("Optimal action plan:\n"+executor.getActionPlan());
-            
-        	System.out.println(agent.agentName + " optimal: " + agent.cost);
-        	sum += agent.cost;
-        	
-            CPDataAccumulator.getAccumulator().note += agent.agentName+":opt="+agent.cost+",plans="+agent.plans.size()+";";
-            
-        }
-
-        CPDataAccumulator.getAccumulator().sumOfLocalOptimums = sum;
-        
-        LOGGER.info(">>> TEST CP PROPERTY");
-        
-        boolean cp = test.testCP();
-        CPDataAccumulator.getAccumulator().isCP = cp;
-        
-        if(cp){
-        	LOGGER.info(">>> OK");
-        }else{
-        	LOGGER.info(">>> NOT A COST PARTITIONING!");
-        }
-
-    }
+//    private void solveExactOCPUsingLP(boolean findAllOptimalPlans,boolean findAllPlans) {
+//        LOGGER.info(">>> SOLVE EXACT OCP USING LP");
+//        
+//        LPOCPGenerator cpgen = new LPOCPGenerator(solver);
+//        CPTest test = new CPTest();
+//        
+//        for (final CostPartitioningAgent agent : agentSet) {
+//        	
+//        	LOGGER.info("> FIND optimal solution of projection for agent " + agent.agentName);
+//        	if(findAllPlans){
+//        		agent.plan("ES","none",!findAllPlans);
+//        	}else{
+//        		agent.plan("A*","hpot",!findAllOptimalPlans);
+//        	}
+//            cpgen.setProblem(agent.agentName, agent.world.getProblem());
+//            
+//            for(List<Action> plan : agent.plans){
+//            	cpgen.addPlan(plan,agent.agentName);
+//            }
+//            
+//        	test.addOriginalProblem(agent.world.getProblem());
+//        }
+//        
+//        LOGGER.info(">>> SOLVE EXACT OCP LP");
+//        
+//        cpgen.solveOCPLP();
+//        CPDataAccumulator.getAccumulator().globalEstimate = cpgen.getSolution().getObjctiveValue();
+//        
+//        LOGGER.info(">>> PLAN USING EXACT OCP");
+//        
+//        float sum = 0;
+//        
+//        for (final CostPartitioningAgent agent : agentSet) {
+//        	
+//        	LOGGER.info("> apply cost-partitioning for agent " + agent.agentName);
+//            
+//        	cpgen.updateCosts(agent.world.getProblem());
+//        	test.addCPProblem(agent.world.getProblem());
+//        	
+//        	LOGGER.info("> FIND optimal solution of cost-partitioned projection for agent " + agent.agentName);
+//            agent.plan("ES","none");
+//            
+//            LOGGER.info("Optimal action plan:\n"+executor.getActionPlan());
+//            
+//        	System.out.println(agent.agentName + " optimal: " + agent.cost);
+//        	sum += agent.cost;
+//        	
+//            CPDataAccumulator.getAccumulator().note += agent.agentName+":opt="+agent.cost+",plans="+agent.plans.size()+";";
+//            
+//        }
+//
+//        CPDataAccumulator.getAccumulator().sumOfLocalOptimums = sum;
+//        
+//        LOGGER.info(">>> TEST CP PROPERTY");
+//        
+//        boolean cp = test.testCP();
+//        CPDataAccumulator.getAccumulator().isCP = cp;
+//        
+//        if(cp){
+//        	LOGGER.info(">>> OK");
+//        }else{
+//        	LOGGER.info(">>> NOT A COST PARTITIONING!");
+//        }
+//
+//    }
     
-    private void solveApproxOCP() {
-        LOGGER.info(">>> SOLVE APPROX OCP");
-        
-        ApproximateOCPGenerator cpgen = new ApproximateOCPGenerator();
-        CPTest test = new CPTest();
-        
-        for (final CostPartitioningAgent agent : agentSet) {
-        	
-        	SEQCostPartLPGenerator lpgen = new SEQCostPartLPGenerator(agent.world,solver,CPDataAccumulator.getAccumulator().domain,CPDataAccumulator.getAccumulator().problem,agent.agentName);
-            float heur = lpgen.generateAndSolveCPLP();
-            
-            cpgen.setProblem(agent.agentName, agent.world.getProblem());
-            cpgen.setLPSolution(lpgen.getSolution(),agent.agentName);
-            test.addOriginalProblem(agent.world.getProblem());
-        	
-        }
-        
-        LOGGER.info(">>> PLAN USING APPROX OCP");
-        
-        float sum = 0;
-        
-        for (final CostPartitioningAgent agent : agentSet) {
-            
-        	cpgen.updateCosts(agent.world.getProblem());
-        	test.addCPProblem(agent.world.getProblem());
-        	
-            agent.plan("A*","hpot");
-            
-        	System.out.println(agent.agentName + " optimal: " + agent.cost);
-        	sum += agent.cost;
-        	
-            CPDataAccumulator.getAccumulator().note += agent.agentName+":opt="+agent.cost+";";
-            
-        }
-
-        CPDataAccumulator.getAccumulator().sumOfLocalOptimums = sum;
-
-        LOGGER.info(">>> TEST CP PROPERTY");
-        
-        boolean cp = test.testCP();
-        CPDataAccumulator.getAccumulator().isCP = cp;
-        
-        if(cp){
-        	LOGGER.info(">>> OK");
-        }else{
-        	LOGGER.info(">>> NOT A COST PARTITIONING!");
-        }
-
-    }
+//    private void solveApproxOCP() {
+//        LOGGER.info(">>> SOLVE APPROX OCP");
+//        
+//        ApproximateOCPGenerator cpgen = new ApproximateOCPGenerator();
+//        CPTest test = new CPTest();
+//        
+//        for (final CostPartitioningAgent agent : agentSet) {
+//        	
+//        	SEQCostPartLPGenerator lpgen = new SEQCostPartLPGenerator(agent.world,solver,CPDataAccumulator.getAccumulator().domain,CPDataAccumulator.getAccumulator().problem,agent.agentName);
+//            float heur = lpgen.generateAndSolveCPLP();
+//            
+//            cpgen.setProblem(agent.agentName, agent.world.getProblem());
+//            cpgen.setLPSolution(lpgen.getSolution(),agent.agentName);
+//            test.addOriginalProblem(agent.world.getProblem());
+//        	
+//        }
+//        
+//        LOGGER.info(">>> PLAN USING APPROX OCP");
+//        
+//        float sum = 0;
+//        
+//        for (final CostPartitioningAgent agent : agentSet) {
+//            
+//        	cpgen.updateCosts(agent.world.getProblem());
+//        	test.addCPProblem(agent.world.getProblem());
+//        	
+//            agent.plan("A*","hpot");
+//            
+//        	System.out.println(agent.agentName + " optimal: " + agent.cost);
+//        	sum += agent.cost;
+//        	
+//            CPDataAccumulator.getAccumulator().note += agent.agentName+":opt="+agent.cost+";";
+//            
+//        }
+//
+//        CPDataAccumulator.getAccumulator().sumOfLocalOptimums = sum;
+//
+//        LOGGER.info(">>> TEST CP PROPERTY");
+//        
+//        boolean cp = test.testCP();
+//        CPDataAccumulator.getAccumulator().isCP = cp;
+//        
+//        if(cp){
+//        	LOGGER.info(">>> OK");
+//        }else{
+//        	LOGGER.info(">>> NOT A COST PARTITIONING!");
+//        }
+//
+//    }
     
     private void prepareAndSolveLPsDist(boolean negative, boolean compensate) {
         LOGGER.info(">>> LP SOLUTION");
@@ -566,9 +562,11 @@ public class CostPartitioningEvaluatorCreator implements Creator {
         CostPartitioningGeneratorInterface cpgen = null;
         
         if(solverID.equals("uniform")){
-        	cpgen = new UniformCPGenerator();
+        	cpgen = new AdHocCPGenerator(0);//UniformCPGenerator();
+        	//FIXME: this is not uniform!
+        	
         }else if(solverID.equals("projcom")){
-        	cpgen = new ProjectionCompensatingCPGenerator();
+        	cpgen = new AdHocCPGenerator(1);//new ProjectionCompensatingCPGenerator();
         }
         
         CPTest test = new CPTest();

@@ -1,0 +1,4 @@
+(define (problem convoy-1g-0i)
+    (:domain convoy)
+    (:agents c g)
+)

@@ -1,0 +1,4 @@
+(define (problem logistics-e2)
+    (:domain logistics)
+    (:agents robot1 robot2 robot3 robot4)
+)

@@ -1,0 +1,3 @@
+(define (problem logistics-e2)
+    (:domain logistics)
+    (:agents airplane1 ny-truck))

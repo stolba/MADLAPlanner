@@ -8,3 +8,153 @@ java.lang.NumberFormatException: For input string: "add"
 	at cz.agents.alite.Main.main(Main.java:18)
 2016-02-05 03:13:45 [FATAL]: cz.agents.madla.creator.SASCreator - SAS file output does not exist!
 2016-02-05 03:14:12 [WARN ]: cz.agents.dimaptools.search.DistributedBestFirstSearch -  by me (rover0) - 499
+2017-11-24 11:49:26 [FATAL]: cz.agents.alite.creator.CreatorFactory - 
+java.lang.NumberFormatException: For input string: "FF"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at cz.agents.madla.creator.SASCreator.init(SASCreator.java:98)
+	at cz.agents.alite.creator.CreatorFactory.createCreator(CreatorFactory.java:26)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:49:54 [FATAL]: cz.agents.alite.creator.CreatorFactory - 
+java.lang.NumberFormatException: For input string: "rdFF"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at cz.agents.madla.creator.SASCreator.init(SASCreator.java:98)
+	at cz.agents.alite.creator.CreatorFactory.createCreator(CreatorFactory.java:26)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:50:26 [FATAL]: cz.agents.alite.creator.CreatorFactory - 
+java.lang.NumberFormatException: For input string: "FF"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at cz.agents.madla.creator.SASCreator.init(SASCreator.java:98)
+	at cz.agents.alite.creator.CreatorFactory.createCreator(CreatorFactory.java:26)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:51:27 [FATAL]: cz.agents.alite.creator.CreatorFactory - 
+java.lang.NumberFormatException: For input string: "FF"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at cz.agents.madla.creator.SASCreator.init(SASCreator.java:98)
+	at cz.agents.alite.creator.CreatorFactory.createCreator(CreatorFactory.java:26)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:52:02 [WARN ]: cz.agents.dimaptools.search.DistributedBestFirstSearch -  by me (tru1) - 725
+2017-11-24 11:52:02 [WARN ]: cz.agents.dimaptools.search.DistributedBestFirstSearch -  by me (tru2) - 734
+2017-11-24 11:53:07 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:53:07 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:53:07 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:53:07 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.getHeuristic(RelaxationHeuristic.java:327)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:54:32 [WARN ]: cz.agents.dimaptools.search.SyncDistributedBestFirstSearch -  by me (tru1) - 582
+2017-11-24 11:54:32 [WARN ]: cz.agents.dimaptools.search.SyncDistributedBestFirstSearch -  by me (tru2) - 589
+2017-11-24 11:54:45 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:54:45 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:54:45 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:54:45 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:54:45 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:54:49 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:54:49 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:54:49 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-11-24 11:54:49 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:54:49 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:54:49 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:56:14 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.ClassCastException: cz.agents.dimaptools.heuristic.relaxed.LazilyDistributedFFHeuristic cannot be cast to cz.agents.dimaptools.heuristic.DistributedRequestHeuristicInterface
+	at cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch.readConfiguration(GlobalLocalDistributedBestFirstSearch.java:192)
+	at cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch.plan(GlobalLocalDistributedBestFirstSearch.java:261)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+2017-11-24 11:56:20 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (tru1) - 414
+2017-11-24 11:56:20 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (tru2) - 422
+2017-11-24 11:56:29 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (tru1) - 387
+2017-11-24 11:56:29 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (tru2) - 397
+2017-11-24 12:03:16 [WARN ]: cz.agents.dimaptools.search.SyncDistributedBestFirstSearch -  by me (apn1) - 2475

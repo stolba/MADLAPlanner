@@ -3,20 +3,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>MADLA Planner</name>
-    <!-- TODO: after change of this version or version of the parent, remove the comment -->
-    <!-- groupId>cz.agents</groupId -->
     <artifactId>madla-planner</artifactId>
-    <!-- version>1.0-SNAPSHOT</version -->
+    <groupId>cz.agents</groupId>
+    <version>1.0-SNAPSHOT</version>
     <description>
         Multi-Agent Distributed Lazily Asynchronous Planner.
     </description>
-    <url>http://jones.felk.cvut.cz/redmine/projects/madla/wiki</url>
+    <url>https://github.com/stolba/MADLAPlanner/wiki/MADLA-Planner</url>
 
-    <parent>
-        <groupId>cz.agents</groupId>
-        <artifactId>atgparent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+    <organization>
+        <name>Artificial Intelligence Center (AIC)</name>
+        <url>http://aic.fel.cvut.cz/</url>
+    </organization>
+    
+    <distributionManagement>
+        <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>atg-repo</id>
+            <name>jones.felk.cvut.cz-snapshots</name>
+            <url>http://jones.felk.cvut.cz/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>atg-repo</id>
+            <name>jones.felk.cvut.cz-releases</name>
+            <url>http://jones.felk.cvut.cz/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,9 +62,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>cz.agents</groupId>
-            <artifactId>dimaptools</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>trove</groupId>
+            <artifactId>trove</artifactId>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
               <groupId>com.google.protobuf</groupId>

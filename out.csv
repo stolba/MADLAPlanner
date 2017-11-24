@@ -1,0 +1,13 @@
+domain,problem,agents,heuristic,recursionLevel,totalTime,initHeuristic,initHeuristicDist,searchTime,expandedStates,expandedStatesGlobal,expandedStatesLocal,searchMessages,heuristicRequestMessages,heuristicReplyMessages,totalMessages,totalBytes,globalSearchTime,localSearchTime,globalHeuristicTime,localHeuristicTime,otherHeuristicTime,searchTimes,globalSearchTimes,localSearchTimes,globalHeuristicTimes,localHeuristicTimes,otherHeuristicTimes,planLength,maxRecursionDepth,planValid,finished
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,FF,0,741,{tru1=9 tru2=4 apn1=4},{},0,293,0,0,86,0,0,86,2752,0,0,0,0,0,,,,,,,26,0,true,true
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,glcl,0,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-sync,-1,595,{},{tru1=22 tru2=13 apn1=15},0,212,0,0,50,583,583,1216,40136,0,0,0,0,0,,,,,,,22,0,true,true
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,glcl-FF,-1,-1,{},{},0,0,0,0,0,36,0,36,1400,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,glcl-FF,-1,-1,{},{},0,0,0,0,0,36,0,36,1400,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,glcl,-1,-1,{},{},0,0,0,0,0,35,0,35,1360,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,glcl,-1,-1,{},{},0,0,0,0,0,35,0,35,1360,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,FF-glcl,-1,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,rdFF-glcl,-1,432,{tru1=9 tru2=4 apn1=4},{tru1=9 tru2=4 apn1=4},0,298,20,279,79,239,239,557,15660,0,0,0,0,0,,,,,,,26,2,true,true
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-glcl,-1,411,{tru1=9 tru2=4 apn1=4},{tru1=22 tru2=13 apn1=15},0,588,16,573,202,56,56,314,10604,0,0,0,0,0,,,,,,,26,0,true,true
+./benchmarks/logistics00,./benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,rdFF-sync,-1,2513,{},{tru1=9 tru2=4 apn1=4},0,933,0,0,239,11237,11237,22713,619240,0,0,0,0,0,,,,,,,46,2,true,true
+benchmarks/logistics00,benchmarks/logistics00/probLOGISTICS-4-0.pddl,3,PPsaFF-glcl,-1,272,{},0,{tru1=9 tru2=4 apn1=4},{tru1=22 tru2=13 apn1=15},0,309,41,268,70,147,148,365,12652,0,0,0,0,0,,,,,,,29,0,true,true
