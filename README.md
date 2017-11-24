@@ -8,6 +8,6 @@ run_local.sh \<domain folder\> \<problem name\> \<configuration\> \<recursion li
 
 Example:
 
-run_local.sh rovers p01 glcl 1 1
+run_local.sh rovers p01 PPsaFF-glcl -1 10
 
 See wiki for explanation
